@@ -1,0 +1,304 @@
+{
+  "name": "Student Activity Centre",
+  "shortName": "SAC",
+  "institute": "Motilal Nehru National Institute of Technology Allahabad",
+  "instituteShort": "MNNIT Allahabad",
+  "tagline": "Beyond Academics. Beyond Boundaries.",
+  "description": "The Student Activity Centre of MNNIT Allahabad — 20 clubs across technical, sports, cultural and community activities, managed by students under the guidance of the President, SAC.",
+  "url": "https://sac.mnnit.ac.in",
+  "logo": "/images/brand/sac-logo.webp",
+  "about": [
+    {
+      "title": "What is the Student Activity Centre?",
+      "body": "Motilal Nehru National Institute of Technology Allahabad has been known for its academic excellence. The students of this institute keep raising the bar for themselves by proving to be a step ahead of the crowd, time and again in all activities. The institute has records of achievements in curricular as well as in extra-curricular activities. An extremely crucial role is played by the Student Activity Centre (SAC) of the institute in facilitating the activities and reaching out to the students under the supervision of the President SAC. The prime locations of the SAC are Students' Clubs, Boys' SAC and Girls' SAC, Multipurpose Hall, Athletics Ground, Gymkhana and other locations. The student activity center hires pool of part-time coaches/Trainers for various events on yearly basis to groom the talents of the students. At present about ten numbers of coaches are working and extending their services two-hour every day."
+    },
+    {
+      "title": "Curricular Activities",
+      "body": "The Institute provides ample avenues for the development and nurturing of creative and other talents in the students through the Student Activity Centre (SAC). All the activities are managed by students under the guidance of President, SAC and a team of Faculty In-Charges, Faculty Coordinators and Committees for various events. The SAC provide plateform to arrange Cultural, Technical and Managerial events, Personality development, Athletics, Indoor and Outdoor games, Yoga and other activities. The SAC also facilitate and encourage the students to take part in similar events in other institutions."
+    }
+  ],
+  "president": {
+    "name": "Prof. Sushil Kumar",
+    "role": "President, Student Activity Centre",
+    "dept": "Department of Chemical Engineering",
+    "photo": "/images/campus/sushil.webp",
+    "profile": "https://mnnit.ac.in/profile/sushilk",
+    "message": [
+      "Motilal Nehru National Institute of Technology Allahabad has been known for its excellence, academically, and the students keep raising the bar for themselves by proving to be a step ahead of the crowd, time and again. The institute, at the same time, also has records of achievements in curricular as well as extra-curricular activities. An extremely crucial role is played by the Student Activity Centre (SAC) of the institute in facilitating the activities and reaching out to the students. The prime locations of the SAC are Students' Clubs, Boys' SAC and Girls' SAC, Multipurpose Hall, Athletics Ground and Gymkhana. The student activity center hires pool of part-time coaches for various events on yearly basis to groom the talents of the students.",
+      "The Institute provides ample avenues for the development and nurturing of creative and other talents in the students through the Student Activity Centre (SAC). All the activities are managed by students under the guidance of President, SAC and a team of Faculty In-Charges, Faculty Coordinators and Committees for various events. The SAC provide avenues for Cultural, Technical and Managerial events, Personality development, Atheletics, Indoor and Outdoor games, Yoga and other activities. The SAC also facilitate and encourage the students to take part in similar events in other institutions. I encourage all the students to take part and actively involve in at least one of the event of the SAC.",
+      "I wish a very bright and sporty career to all the MNNIT students."
+    ]
+  },
+  "director": {
+    "name": "Prof. K. Umamaheshwar Rao",
+    "role": "Director, MNNIT Allahabad",
+    "profile": "https://www.mnnit.ac.in/index.php/institute/administration/director"
+  },
+  "contact": {
+    "address": "Motilal Nehru National Institute of Technology Allahabad",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "pin": "211004",
+    "country": "India",
+    "phone": [
+      "+91-532-2545404",
+      "+91-532-2545407"
+    ],
+    "fax": "+91-532-2545341",
+    "email": "pa-director@mnnit.ac.in",
+    "mapQuery": "MNNIT Allahabad, Prayagraj"
+  },
+  "quickLinks": [
+    {
+      "label": "MNNIT Website",
+      "href": "https://www.mnnit.ac.in"
+    },
+    {
+      "label": "Alumni Web-Portal",
+      "href": "https://alumni.mnnit.ac.in/"
+    },
+    {
+      "label": "Student Welfare",
+      "href": "http://www.mnnit.ac.in/swo/"
+    },
+    {
+      "label": "Anti-Ragging",
+      "href": "http://www.mnnit.ac.in/index.php/anti-ragging"
+    }
+  ],
+  "socials": [
+    {
+      "label": "Facebook",
+      "href": "https://www.facebook.com/MNNITALLD/",
+      "icon": "facebook"
+    },
+    {
+      "label": "X",
+      "href": "https://x.com/MNNITALLD",
+      "icon": "x"
+    },
+    {
+      "label": "Instagram",
+      "href": "https://www.instagram.com/mnnitalld",
+      "icon": "instagram"
+    }
+  ],
+  "stats": [
+    {
+      "value": 20,
+      "suffix": "",
+      "label": "Clubs",
+      "hint": "Technical, sports, cultural and community"
+    },
+    {
+      "value": 43,
+      "suffix": "",
+      "label": "Faculty members",
+      "hint": "In-Charges, Coordinators and committee members"
+    },
+    {
+      "value": 8,
+      "suffix": "",
+      "label": "Activity committees",
+      "hint": "One for each activity domain"
+    },
+    {
+      "value": 22,
+      "suffix": "",
+      "label": "Recorded results",
+      "hint": "Logged from 2016 onwards"
+    }
+  ],
+  "motto": [
+    "Explore",
+    "Participate",
+    "Perform",
+    "Lead",
+    "Achieve"
+  ],
+  "vision": {
+    "statement": "",
+    "body": []
+  },
+  "objectives": [
+    "Leadership",
+    "Teamwork",
+    "Creativity",
+    "Technical innovation",
+    "Communication skills",
+    "Sportsmanship",
+    "Physical fitness",
+    "Cultural awareness",
+    "Social responsibility",
+    "Entrepreneurial abilities",
+    "Organisational and managerial skills"
+  ],
+  "structure": [
+    {
+      "title": "President, SAC",
+      "body": "Heads the Student Activity Centre."
+    },
+    {
+      "title": "Faculty Team",
+      "body": "A Faculty In-Charge and a Faculty Coordinator for every activity."
+    },
+    {
+      "title": "Coaches & Trainers",
+      "body": "Engaged for the sports and cultural activities of the Centre."
+    },
+    {
+      "title": "Student Leadership",
+      "body": "General Secretaries, club coordinators, captains, vice-captains and student executive committees."
+    }
+  ],
+  "contentPolicy": {
+    "intro": "A major problem with institutional websites is that they become outdated. Therefore, responsibility is formally defined.",
+    "roles": [
+      {
+        "role": "President SAC",
+        "duty": "Overall approval"
+      },
+      {
+        "role": "Faculty In-Charges",
+        "duty": "Verification of respective activity information"
+      },
+      {
+        "role": "Club/Activity Coordinators",
+        "duty": "Submission of updates"
+      },
+      {
+        "role": "SAC Web Team",
+        "duty": "Uploading and maintenance"
+      }
+    ],
+    "submissionIntro": "Every completed event should preferably be submitted through a standard format containing:",
+    "submission": [
+      "Event Name",
+      "Date",
+      "Venue",
+      "Organiser",
+      "Faculty Coordinator",
+      "Student Coordinator",
+      "No. of Participants",
+      "Brief Report",
+      "Results",
+      "Achievements",
+      "5–10 Photographs"
+    ]
+  },
+  "aboutSections": [
+    {
+      "title": "Introduction",
+      "pending": false
+    },
+    {
+      "title": "Vision",
+      "pending": true
+    },
+    {
+      "title": "Mission",
+      "pending": true
+    },
+    {
+      "title": "Objectives",
+      "pending": false
+    },
+    {
+      "title": "Role of SAC",
+      "pending": true
+    },
+    {
+      "title": "Administrative structure",
+      "pending": false
+    },
+    {
+      "title": "Student participation model",
+      "pending": false
+    },
+    {
+      "title": "History and evolution of SAC",
+      "pending": true
+    },
+    {
+      "title": "Contribution towards holistic student development",
+      "pending": true
+    }
+  ],
+  "objectivesIntro": "SAC shall facilitate opportunities for students to develop:",
+  "participationModel": [
+    "What we do",
+    "Who can join",
+    "Selection/registration process",
+    "When recruitment takes place",
+    "Faculty Coordinator",
+    "Student Coordinator",
+    "Join/Register"
+  ],
+  "fiveQuestions": [
+    {
+      "key": "what",
+      "question": "WHAT?",
+      "body": "What activities does SAC conduct?",
+      "href": "/activities"
+    },
+    {
+      "key": "who",
+      "question": "WHO?",
+      "body": "Who is responsible for each activity?",
+      "href": "/people"
+    },
+    {
+      "key": "when",
+      "question": "WHEN?",
+      "body": "What is happening and when?",
+      "href": "/calendar"
+    },
+    {
+      "key": "how",
+      "question": "HOW?",
+      "body": "How can a student participate?",
+      "href": "/join"
+    },
+    {
+      "key": "achievement",
+      "question": "ACHIEVEMENT?",
+      "body": "What has MNNIT and its students accomplished?",
+      "href": "/achievements"
+    }
+  ],
+  "statsNote": "Counts are computed from the data published on this site. Figures marked for verification are updated annually by the SAC office.",
+  "pendingStats": [
+    {
+      "label": "Students",
+      "hint": "Total student strength — to be verified by the SAC office"
+    },
+    {
+      "label": "National Awards",
+      "hint": "To be verified by the SAC office"
+    },
+    {
+      "label": "Sports Teams",
+      "hint": "To be verified by the SAC office"
+    }
+  ],
+  "website": {
+    "statement": "The SAC website should serve as the central digital platform for student life at MNNIT Allahabad, showcasing the Institute's vibrant co-curricular and extracurricular ecosystem.",
+    "documents": [
+      "Activities being conducted",
+      "Upcoming programmes and events",
+      "People responsible for different activities",
+      "Student clubs and societies",
+      "Sports and cultural activities",
+      "Major annual events",
+      "Student participation and achievements",
+      "Completed activities",
+      "Facilities and infrastructure",
+      "Coaches, trainers and mentors",
+      "Awards and recognitions",
+      "Opportunities available to students",
+      "Photo/video documentation",
+      "Annual performance of SAC"
+    ],
+    "principle": "A living digital record of student life at MNNIT Allahabad, rather than a static information portal."
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sac-constitution",
+    "title": "SAC Constitution / Guidelines",
+    "group": "policy",
+    "files": []
+  },
+  {
+    "id": "office-orders",
+    "title": "Office Orders",
+    "group": "policy",
+    "files": []
+  },
+  {
+    "id": "faculty-in-charge-orders",
+    "title": "Faculty In-Charge Orders",
+    "group": "policy",
+    "files": []
+  },
+  {
+    "id": "club-recognition-guidelines",
+    "title": "Club Recognition Guidelines",
+    "group": "policy",
+    "files": []
+  },
+  {
+    "id": "event-guidelines",
+    "title": "Event Guidelines",
+    "group": "policy",
+    "files": []
+  },
+  {
+    "id": "sports-rules",
+    "title": "Sports Rules",
+    "group": "policy",
+    "files": []
+  },
+  {
+    "id": "student-participation-forms",
+    "title": "Student Participation Forms",
+    "group": "forms",
+    "files": []
+  },
+  {
+    "id": "reimbursement-forms",
+    "title": "Reimbursement Forms",
+    "group": "forms",
+    "files": []
+  },
+  {
+    "id": "equipment-issue-forms",
+    "title": "Equipment Issue Forms",
+    "group": "forms",
+    "files": []
+  },
+  {
+    "id": "annual-reports",
+    "title": "Annual Reports",
+    "group": "reports",
+    "files": []
+  },
+  {
+    "id": "event-reports",
+    "title": "Event Reports",
+    "group": "reports",
+    "files": []
+  },
+  {
+    "id": "achievements-reports",
+    "title": "Achievements Reports",
+    "group": "reports",
+    "files": []
+  }
+]

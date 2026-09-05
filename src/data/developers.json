@@ -1,0 +1,26 @@
+{
+  "heading": "The web team",
+  "subheading": "This site was designed and built by two students of MNNIT Allahabad.",
+  "members": [
+    {
+      "name": "Ayush Tiwari",
+      "role": "Design & Development",
+      "photo": "/images/team/ayush.webp",
+      "linkedin": "https://in.linkedin.com/in/ayushtiwarimnnit",
+      "github": "",
+      "blurb": "",
+      "objectPosition": "center 62%",
+      "batch": "Batch of 2027"
+    },
+    {
+      "name": "Shanu Kumawat",
+      "role": "Design & Development",
+      "photo": "/images/team/shanu.webp",
+      "linkedin": "https://in.linkedin.com/in/shanukumawat",
+      "github": "",
+      "blurb": "",
+      "objectPosition": "center 35%",
+      "batch": "Batch of 2027"
+    }
+  ]
+}

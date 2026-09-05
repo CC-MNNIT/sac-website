@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "codesangam",
+    "kind": "announcement",
+    "title": "Unveiling CodeSangam",
+    "date": "October 28, 2023",
+    "category": "Technical",
+    "summary": "Where Innovation Meets the Universe! Get ready to embark on a cosmic journey that will transport you through the ever-expanding realms of technology and innovation. 🌐 Webster 📱 DroidRush 💡 Logical Rhythm 🖥️ Softablitz 👩‍💻 ContriHub",
+    "body": "Where Innovation Meets the Universe! Get ready to embark on a cosmic journey that will transport you through the ever-expanding realms of technology and innovation. Join us as CC Club proudly presents the ultimate coding odyssey: CodeSangam! 🌐 Webster - For those who want to paint the web with their creativity. 📱 DroidRush - Dive into the exciting world of Android app development. 💡 Logical Rhythm - Uncover the magic of machine learning and AI. 🖥️ Softablitz - Craft desktop applications that shape the future. 👩‍💻 ContriHub - Contribute to open-source projects that impact the world. Whether you're a coding novice or a seasoned pro, there's a challenge for everyone. Sharpen your skills, collaborate with the brightest minds, and stand a chance to win stellar prizes! 🪐 Website Link - https://sac.mnnit.ac.in/codesangam 🚀 Team Registrations are now OPEN! Assemble your tech-savvy crew and explore the galaxy of events under CodeSangam. Let your coding journey get a turbo boost!",
+    "image": "/images/events/codesangam.webp",
+    "eventSlug": "codesangam",
+    "link": "",
+    "attachments": []
+  },
+  {
+    "slug": "culrav",
+    "kind": "announcement",
+    "title": "Culrav is almost here",
+    "date": "April 4, 2023",
+    "category": "Cultural",
+    "summary": "Say Konnichiwa to the brand new logo of Culrav '23. The logo's vibrant colours and spectacular design perfectly encapsulate the spirit and essence of our forthcoming event. Designed by: @mrrobot.psd",
+    "body": "Say Konnichiwa to the brand new logo of Culrav '23. The logo's vibrant colours and spectacular design perfectly encapsulate the spirit and essence of our forthcoming event. Designed by: @mrrobot.psd",
+    "image": "/images/events/culrav.webp",
+    "eventSlug": "culrav",
+    "link": "",
+    "attachments": []
+  },
+  {
+    "slug": "annual-athletic-meet",
+    "kind": "announcement",
+    "title": "Annual Athletic Meet",
+    "date": "January 18, 2023",
+    "category": "Sports",
+    "summary": "Hola amigos, Let's discover our inner sportsmanship this month, as we under the honour of SAC are here to acquit you unpack all your ground essentials and unleash the serene calibre in you.",
+    "body": "Hola amigos, Let's discover our inner sportsmanship this month, as we under the honour of SAC are here to acquit you unpack all your ground essentials and unleash the serene calibre in you.",
+    "image": "/images/events/aanm.webp",
+    "eventSlug": "annual-athletic-meet",
+    "link": "",
+    "attachments": []
+  },
+  {
+    "slug": "avishkar",
+    "kind": "announcement",
+    "title": "The Techfest - Avishkar",
+    "date": "October 28, 2022",
+    "category": "Technical",
+    "summary": "Heya fams! Avishkar, the most awaited techno-management fest of MNNIT Allahabad is right around the corner. Every student must join our MS Teams Channel to stay updated.",
+    "body": "Heya fams! Avishkar, the most awaited techno-management fest of MNNIT Allahabad is right around the corner. Every student must join our MS Teams Channel to stay updated.",
+    "image": "/images/events/avishkar.webp",
+    "eventSlug": "avishkar",
+    "link": "",
+    "attachments": []
+  }
+]

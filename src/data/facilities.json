@@ -1,0 +1,173 @@
+[
+  {
+    "id": "sports-infrastructure",
+    "title": "Sports Infrastructure",
+    "icon": "trophy",
+    "items": [
+      {
+        "slug": "athletics-ground",
+        "name": "Athletics Ground",
+        "photos": [],
+        "location": "",
+        "facilities": [],
+        "timings": "",
+        "rules": [],
+        "contact": null
+      },
+      {
+        "slug": "cricket-facilities",
+        "name": "Cricket facilities",
+        "photos": [],
+        "location": "",
+        "facilities": [],
+        "timings": "",
+        "rules": [],
+        "contact": null
+      },
+      {
+        "slug": "football-ground",
+        "name": "Football Ground",
+        "photos": [],
+        "location": "",
+        "facilities": [],
+        "timings": "",
+        "rules": [],
+        "contact": null
+      },
+      {
+        "slug": "basketball-courts",
+        "name": "Basketball Courts",
+        "photos": [],
+        "location": "",
+        "facilities": [],
+        "timings": "",
+        "rules": [],
+        "contact": null
+      },
+      {
+        "slug": "volleyball-courts",
+        "name": "Volleyball Courts",
+        "photos": [],
+        "location": "",
+        "facilities": [],
+        "timings": "",
+        "rules": [],
+        "contact": null
+      },
+      {
+        "slug": "tennis-courts",
+        "name": "Tennis Courts",
+        "photos": [],
+        "location": "",
+        "facilities": [],
+        "timings": "",
+        "rules": [],
+        "contact": null
+      },
+      {
+        "slug": "indoor-facilities",
+        "name": "Indoor facilities",
+        "photos": [],
+        "location": "",
+        "facilities": [],
+        "timings": "",
+        "rules": [],
+        "contact": null
+      }
+    ]
+  },
+  {
+    "id": "fitness",
+    "title": "Fitness",
+    "icon": "lift",
+    "items": [
+      {
+        "slug": "gymnasium",
+        "name": "Gymnasium",
+        "photos": [],
+        "location": "",
+        "facilities": [],
+        "timings": "",
+        "rules": [],
+        "contact": null
+      },
+      {
+        "slug": "weight-training",
+        "name": "Weight training",
+        "photos": [],
+        "location": "",
+        "facilities": [],
+        "timings": "",
+        "rules": [],
+        "contact": null
+      },
+      {
+        "slug": "yoga-facilities",
+        "name": "Yoga facilities",
+        "photos": [],
+        "location": "",
+        "facilities": [],
+        "timings": "",
+        "rules": [],
+        "contact": null
+      }
+    ]
+  },
+  {
+    "id": "cultural-infrastructure",
+    "title": "Cultural Infrastructure",
+    "icon": "mask",
+    "items": [
+      {
+        "slug": "multipurpose-hall",
+        "name": "Multipurpose Hall",
+        "photos": [],
+        "location": "",
+        "facilities": [],
+        "timings": "",
+        "rules": [],
+        "contact": null
+      },
+      {
+        "slug": "rehearsal-spaces",
+        "name": "Rehearsal spaces",
+        "photos": [],
+        "location": "",
+        "facilities": [],
+        "timings": "",
+        "rules": [],
+        "contact": null
+      },
+      {
+        "slug": "students-clubs",
+        "name": "Student Clubs",
+        "photos": [],
+        "location": "",
+        "facilities": [],
+        "timings": "",
+        "rules": [],
+        "contact": null
+      },
+      {
+        "slug": "boys-sac",
+        "name": "Boys' SAC",
+        "photos": [],
+        "location": "",
+        "facilities": [],
+        "timings": "",
+        "rules": [],
+        "contact": null
+      },
+      {
+        "slug": "girls-sac",
+        "name": "Girls' SAC",
+        "photos": [],
+        "location": "",
+        "facilities": [],
+        "timings": "",
+        "rules": [],
+        "contact": null
+      }
+    ]
+  }
+]

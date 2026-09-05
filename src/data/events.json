@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "avishkar",
+    "title": "Avishkar",
+    "subtitle": "Institute-level technical festival",
+    "category": "Technical",
+    "image": "/images/events/avishkar.webp",
+    "gallerySlug": "avishkar",
+    "about": [],
+    "editions": []
+  },
+  {
+    "slug": "culrav",
+    "title": "Culrav",
+    "subtitle": "Cultural festival",
+    "category": "Cultural",
+    "image": "/images/events/culrav.webp",
+    "gallerySlug": "culrav",
+    "about": [],
+    "editions": []
+  },
+  {
+    "slug": "annual-athletic-meet",
+    "title": "Annual Athletic Meet",
+    "subtitle": "",
+    "category": "Sports",
+    "image": "/images/events/aanm.webp",
+    "gallerySlug": "",
+    "about": [],
+    "editions": []
+  },
+  {
+    "slug": "josh",
+    "title": "Josh",
+    "subtitle": "",
+    "category": "",
+    "image": "",
+    "gallerySlug": "",
+    "about": [],
+    "editions": []
+  },
+  {
+    "slug": "gnosiomania",
+    "title": "Gnosiomania",
+    "subtitle": "",
+    "category": "",
+    "image": "",
+    "gallerySlug": "",
+    "about": [],
+    "editions": []
+  },
+  {
+    "slug": "codesangam",
+    "title": "CodeSangam",
+    "subtitle": "",
+    "category": "Technical",
+    "image": "/images/events/codesangam.webp",
+    "gallerySlug": "",
+    "about": [],
+    "editions": []
+  },
+  {
+    "slug": "hack-36",
+    "title": "Hack 36",
+    "subtitle": "",
+    "category": "Technical",
+    "image": "/images/gallery/hack36/hack-36-01.webp",
+    "gallerySlug": "hack36",
+    "about": [],
+    "editions": []
+  },
+  {
+    "slug": "chitrasangam-eloquence",
+    "title": "Chitrasangam & Eloquence",
+    "subtitle": "",
+    "category": "Cultural",
+    "image": "/images/gallery/chitrasangam/chitrasangam-and-eloquence-01.webp",
+    "gallerySlug": "chitrasangam",
+    "about": [],
+    "editions": []
+  },
+  {
+    "slug": "padmgandhi",
+    "title": "Padmgandhi",
+    "subtitle": "",
+    "category": "Cultural",
+    "image": "/images/gallery/padmgandhi/padmgandhi-01.webp",
+    "gallerySlug": "padmgandhi",
+    "about": [],
+    "editions": []
+  }
+]

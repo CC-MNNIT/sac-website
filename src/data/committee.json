@@ -1,0 +1,316 @@
+[
+  {
+    "id": "literary-personality-development-activities",
+    "activity": "Literary & Personality Development Activities",
+    "icon": "book",
+    "members": [
+      {
+        "name": "Dr. Rajitha B",
+        "dept": "CSED",
+        "role": "Faculty In-Charge",
+        "photo": "/images/faculty/rajitha-b.webp"
+      },
+      {
+        "name": "Dr. Rakesh Kumar",
+        "dept": "SMS",
+        "role": "Coordinator",
+        "photo": "/images/faculty/rakesh-kumar.webp"
+      },
+      {
+        "name": "Dr. Dheeraj Ahuja",
+        "dept": "ChED",
+        "role": "Community Development",
+        "photo": "/images/faculty/dheeraj-ahuja.webp"
+      },
+      {
+        "name": "Dr. Binit Kumar",
+        "dept": "CED",
+        "role": "Media Coverage / Website / Social Media",
+        "photo": "/images/faculty/binit-kumar.webp"
+      },
+      {
+        "name": "Dr. Deepak Gupta",
+        "dept": "CSED",
+        "role": "Personality Development",
+        "photo": "/images/faculty/deepak-gupta.webp"
+      },
+      {
+        "name": "Dr. Brij Kishor",
+        "dept": "AMD",
+        "role": "Quiz Club",
+        "photo": "/images/faculty/brij-kishor.webp"
+      },
+      {
+        "name": "Dr. Joohi Chauhan",
+        "dept": "CSED",
+        "role": "Photography Club",
+        "photo": "/images/faculty/joohi-chauhan.webp"
+      }
+    ]
+  },
+  {
+    "id": "technological-activities",
+    "activity": "Technological Activities",
+    "icon": "chip",
+    "members": [
+      {
+        "name": "Dr. V.P. Singh",
+        "dept": "CED",
+        "role": "Faculty In-Charge",
+        "photo": "/images/faculty/vp-singh.webp"
+      },
+      {
+        "name": "Dr. Vibhav Prakash Singh",
+        "dept": "CSED",
+        "role": "Coordinator",
+        "photo": "/images/faculty/vibhav-prakash-singh.webp"
+      },
+      {
+        "name": "Dr. Sandeep Kumar Singh",
+        "dept": "ECED",
+        "role": "Technical Activities Club",
+        "photo": "/images/faculty/sandeep-kumar-singh.webp"
+      },
+      {
+        "name": "Dr. Jitendra N. Gangwar",
+        "dept": "MED",
+        "role": "Robotics",
+        "photo": "/images/faculty/jitendra-gangwar.webp"
+      },
+      {
+        "name": "Dr. Abhishek Kundu",
+        "dept": "AMD",
+        "role": "Aero-modelling Club",
+        "photo": "/images/faculty/abhishek-kundu.webp"
+      },
+      {
+        "name": "Dr. Jagat Jyoti Rath",
+        "dept": "EED",
+        "role": "Energy Club",
+        "photo": "/images/faculty/jagat-jyoti-rath.webp"
+      }
+    ]
+  },
+  {
+    "id": "cultural-activities",
+    "activity": "Cultural Activities",
+    "icon": "music",
+    "members": [
+      {
+        "name": "Dr. Sameer Srivastava",
+        "dept": "Biotech",
+        "role": "Faculty In-Charge",
+        "photo": "/images/faculty/sameer-srivastava.webp"
+      },
+      {
+        "name": "Dr. Soman Dey",
+        "dept": "SMS",
+        "role": "Coordinator",
+        "photo": "/images/faculty/soman-dey.webp"
+      },
+      {
+        "name": "Dr. Satish Chandra",
+        "dept": "ECED",
+        "role": "Dance Club",
+        "photo": "/images/faculty/satish-chandra.webp"
+      },
+      {
+        "name": "Dr. Karthick Senthilkumar",
+        "dept": "ChED",
+        "role": "Dramatics Club",
+        "photo": "/images/faculty/karthick-senthilkumar.webp"
+      },
+      {
+        "name": "Dr. Shubham Gupta",
+        "dept": "Mathematics",
+        "role": "Arts & Painting Club",
+        "photo": "/images/faculty/shubham-gupta.webp"
+      },
+      {
+        "name": "Dr. Indu Dohore",
+        "dept": "CSED",
+        "role": "Modelling & Fashion Show Club",
+        "photo": "/images/faculty/indu-dohare.webp"
+      }
+    ]
+  },
+  {
+    "id": "indian-classical-activities",
+    "activity": "Indian Classical Activities",
+    "icon": "veena",
+    "members": [
+      {
+        "name": "Dr. Bireswar Paul",
+        "dept": "MED",
+        "role": "Faculty In-Charge",
+        "photo": "/images/faculty/bireswar-paul.webp"
+      },
+      {
+        "name": "Dr. Uvanesh K",
+        "dept": "AMD",
+        "role": "Coordinator",
+        "photo": "/images/faculty/uvanesh-k.webp"
+      }
+    ]
+  },
+  {
+    "id": "sports-indoor-outdoor-activities",
+    "activity": "Sports (Indoor & Outdoor) Activities",
+    "icon": "trophy",
+    "members": [
+      {
+        "name": "Dr. Sarsij Tripathi",
+        "dept": "CSED",
+        "role": "Faculty In-Charge",
+        "photo": "/images/faculty/sarsij-tripathi.webp"
+      },
+      {
+        "name": "Dr. Niraj Choudhary",
+        "dept": "EED",
+        "role": "Coordinator",
+        "photo": "/images/faculty/dr-niraj-choudhary.webp"
+      },
+      {
+        "name": "Dr. Satish Chandra",
+        "dept": "ECED",
+        "role": "Badminton",
+        "photo": "/images/faculty/satish-chandra.webp"
+      },
+      {
+        "name": "Dr. Anand Mohan Verma",
+        "dept": "ChED",
+        "role": "Chess and Carom",
+        "photo": "/images/faculty/anand-mohan-verma.webp"
+      },
+      {
+        "name": "Dr. Swastik Acharya",
+        "dept": "MED",
+        "role": "Basketball",
+        "photo": "/images/faculty/swastik-acharya.webp"
+      },
+      {
+        "name": "Dr. Supriya Yadav",
+        "dept": "Mathematics",
+        "role": "Hockey",
+        "photo": "/images/faculty/dr-supriya-yadav.webp"
+      },
+      {
+        "name": "Dr. Anuja Dixit",
+        "dept": "CSED",
+        "role": "Skating",
+        "photo": "/images/faculty/anuja-dixit.webp"
+      },
+      {
+        "name": "Dr. Ajay Kumar Mandrawalia",
+        "dept": "CED",
+        "role": "Lawn Tennis",
+        "photo": "/images/faculty/ajay-mandrawalia.webp"
+      },
+      {
+        "name": "Dr. Abhinav Kumar",
+        "dept": "CSED",
+        "role": "Kho-Kho",
+        "photo": "/images/faculty/abhinav-kumar.webp"
+      },
+      {
+        "name": "Dr. Hukum Chand Dewangan",
+        "dept": "MED",
+        "role": "Kabaddi",
+        "photo": "/images/faculty/hukum-chand-dewangan.webp"
+      },
+      {
+        "name": "Dr. Kapil Chandra",
+        "dept": "EED",
+        "role": "Football",
+        "photo": ""
+      },
+      {
+        "name": "Dr. Sachin Kadam",
+        "dept": "ECED",
+        "role": "Table-Tennis",
+        "photo": "/images/faculty/sachin-kadam.webp"
+      },
+      {
+        "name": "Dr. Bharat Rajan",
+        "dept": "CED",
+        "role": "Volleyball",
+        "photo": "/images/faculty/bharat-rajan.webp"
+      },
+      {
+        "name": "Dr. Nirmal Ch Roy",
+        "dept": "ECED",
+        "role": "Martial Arts (Taekwondo / Karate)",
+        "photo": "/images/faculty/nirmal-roy.webp"
+      }
+    ]
+  },
+  {
+    "id": "athletic-gym-activities",
+    "activity": "Athletic & Gym Activities",
+    "icon": "run",
+    "members": [
+      {
+        "name": "Dr. Rahul Dev",
+        "dept": "MED",
+        "role": "Faculty In-Charge",
+        "photo": "/images/faculty/rahul-dev.webp"
+      },
+      {
+        "name": "Dr. Vishal Kumar Gaur",
+        "dept": "EED",
+        "role": "Coordinator",
+        "photo": "/images/faculty/vishal-kumar-gaur.webp"
+      },
+      {
+        "name": "Dr. Shubh Lakshmi",
+        "dept": "EED",
+        "role": "Gymkhana (Girls)",
+        "photo": "/images/faculty/shubh-lakshmi.webp"
+      },
+      {
+        "name": "Dr. Ashutosh Mishra",
+        "dept": "AMD",
+        "role": "Track Events",
+        "photo": "/images/faculty/ashutosh-mishra.webp"
+      },
+      {
+        "name": "Dr. Kirtiratan Godbole",
+        "dept": "AMD",
+        "role": "Field Events",
+        "photo": "/images/faculty/kirtiratan-godbole.webp"
+      }
+    ]
+  },
+  {
+    "id": "yoga-activities",
+    "activity": "Yoga Activities",
+    "icon": "yoga",
+    "members": [
+      {
+        "name": "Dr. Dinesh Singh",
+        "dept": "CSED",
+        "role": "Faculty In-Charge",
+        "photo": "/images/faculty/dinesh-singh.webp"
+      },
+      {
+        "name": "Dr. Prashanta Majee",
+        "dept": "Mathematics",
+        "role": "Coordinator",
+        "photo": "/images/faculty/prashanta-majee.webp"
+      }
+    ]
+  },
+  {
+    "id": "moe-mhrd-activities",
+    "activity": "MoE / MHRD Activities",
+    "icon": "building",
+    "members": [
+      {
+        "name": "Dr. Manohar Yadav",
+        "dept": "GIS",
+        "role": "Faculty In-Charge",
+        "photo": "/images/faculty/manohar-yadav.webp"
+      }
+    ]
+  }
+]

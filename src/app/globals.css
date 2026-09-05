@@ -1,0 +1,514 @@
+@import "tailwindcss";
+
+/* Dark mode is class-driven so the toggle can override the OS preference. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ------------------------------------------------------------------ *
+ *  Design tokens
+ *
+ *  A student-activity-centre palette: paper-cream ground, ink-navy type,
+ *  an electric blue brand and four loud category colours that carry the
+ *  playful energy. Light is the base definition; .dark redefines the same
+ *  names, so no colour is ever defined only inside a dark block.
+ * ------------------------------------------------------------------ */
+:root {
+  /* Surfaces */
+  --bg: #fbfaf6;
+  --bg-tint: #f2f1ea;
+  --surface: #ffffff;
+  --surface-2: #f4f3ed;
+  --surface-3: #e7e5da;
+  --overlay: #ffffff;
+
+  /* Text */
+  --ink: #14161f;
+  --ink-muted: #4b5162;
+  --ink-subtle: #7a8095;
+  --ink-invert: #fbfaf6;
+
+  /* Lines */
+  --line: #e2e0d5;
+  --line-strong: #14161f;
+
+  /* Brand — electric blue */
+  --brand: #2952e3;
+  --brand-strong: #1c39ad;
+  --brand-soft: #e6ebff;
+  --brand-ink: #ffffff;
+
+  /* Accent — warm coral */
+  --accent: #ff6a3d;
+  --accent-soft: #ffece5;
+
+  /* Category accents — the four activity areas */
+  --cat-technical: #2952e3;
+  --cat-sports: #12a05c;
+  --cat-cultural: #d4326f;
+  --cat-initiatives: #e08600;
+
+  /* Pop palette — confetti, doodles, stickers */
+  --pop-1: #2952e3;
+  --pop-2: #12a05c;
+  --pop-3: #d4326f;
+  --pop-4: #e08600;
+  --pop-5: #7c4ddb;
+  --pop-6: #00b4c8;
+
+  /* Hard "sticker" shadow, the signature of the card system */
+  --sticker: #14161f;
+  --ring: rgba(41, 82, 227, 0.4);
+}
+
+.dark {
+  --bg: #0c0e16;
+  --bg-tint: #121523;
+  --surface: #161a2a;
+  --surface-2: #1e2235;
+  --surface-3: #2a2f45;
+  --overlay: #10131f;
+
+  --ink: #f0f1f7;
+  --ink-muted: #a8afc4;
+  --ink-subtle: #7c8399;
+  --ink-invert: #0c0e16;
+
+  --line: #262b3e;
+  --line-strong: #414863;
+
+  --brand: #7b9bff;
+  --brand-strong: #a5bbff;
+  --brand-soft: #1a2244;
+  --brand-ink: #0a0d18;
+
+  --accent: #ff8f6b;
+  --accent-soft: #2a1a14;
+
+  --cat-technical: #7b9bff;
+  --cat-sports: #47d693;
+  --cat-cultural: #ff7aa8;
+  --cat-initiatives: #ffb445;
+
+  --pop-1: #7b9bff;
+  --pop-2: #47d693;
+  --pop-3: #ff7aa8;
+  --pop-4: #ffb445;
+  --pop-5: #b18cff;
+  --pop-6: #45dcef;
+
+  --sticker: #000000;
+  --ring: rgba(123, 155, 255, 0.5);
+}
+
+/* Register tokens as Tailwind utilities: bg-surface, text-ink, border-line … */
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-tint: var(--bg-tint);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-ink-subtle: var(--ink-subtle);
+  --color-ink-invert: var(--ink-invert);
+
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+
+  --color-brand: var(--brand);
+  --color-brand-soft: var(--brand-soft);
+  --color-brand-strong: var(--brand-strong);
+  --color-brand-ink: var(--brand-ink);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+
+  --color-cat-technical: var(--cat-technical);
+  --color-cat-sports: var(--cat-sports);
+  --color-cat-cultural: var(--cat-cultural);
+  --color-cat-initiatives: var(--cat-initiatives);
+
+  --color-pop-1: var(--pop-1);
+  --color-pop-2: var(--pop-2);
+  --color-pop-3: var(--pop-3);
+  --color-pop-4: var(--pop-4);
+  --color-pop-5: var(--pop-5);
+  --color-pop-6: var(--pop-6);
+
+  --font-display: var(--font-display), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+
+  --radius-4xl: 2rem;
+  --radius-5xl: 2.75rem;
+
+  --animate-fade-up: fade-up 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-pop-in: pop-in 0.55s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-bob: bob 3.4s ease-in-out infinite;
+  --animate-wobble: wobble 5s ease-in-out infinite;
+  --animate-spin-slow: spin 18s linear infinite;
+  --animate-blob: blob 12s ease-in-out infinite;
+}
+
+/* ------------------------------------------------------------------ *
+ *  Base
+ * ------------------------------------------------------------------ */
+@layer base {
+  * {
+    border-color: var(--line);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+
+  /* Soft serif display face — Fraunces carries the playful tone. */
+  h1, h2, h3, h4 {
+    font-family: var(--font-display), Georgia, serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--brand);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+
+  ::selection {
+    background: var(--accent);
+    color: #ffffff;
+  }
+
+  ::-webkit-scrollbar { width: 12px; height: 12px; }
+  ::-webkit-scrollbar-track { background: var(--bg-tint); }
+  ::-webkit-scrollbar-thumb {
+    background: var(--brand);
+    border-radius: 99px;
+    border: 3px solid var(--bg-tint);
+  }
+  ::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+}
+
+/* ------------------------------------------------------------------ *
+ *  Utilities
+ * ------------------------------------------------------------------ */
+@utility container-page {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 80rem;
+  padding-inline: 1.25rem;
+  @media (width >= 48rem) { padding-inline: 2rem; }
+  @media (width >= 80rem) { padding-inline: 2.5rem; }
+}
+
+/* The header is deliberately solid — no translucency, no blur. */
+@utility nav-solid {
+  background-color: var(--overlay);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+/* Signature card treatment: ink outline plus a hard offset shadow that
+   snaps closed on hover, like pressing a physical sticker down. */
+@utility sticker {
+  border: 2px solid var(--line-strong);
+  box-shadow: 5px 5px 0 0 var(--sticker);
+  transition:
+    transform 0.28s cubic-bezier(0.34, 1.4, 0.64, 1),
+    box-shadow 0.28s cubic-bezier(0.34, 1.4, 0.64, 1),
+    border-color 0.28s ease;
+}
+
+@utility sticker-hover {
+  &:hover {
+    transform: translate3d(-3px, -3px, 0);
+    box-shadow: 9px 9px 0 0 var(--sticker);
+  }
+  &:active {
+    transform: translate3d(2px, 2px, 0);
+    box-shadow: 2px 2px 0 0 var(--sticker);
+  }
+}
+
+/* Coloured variant — the offset shadow takes the category colour. */
+@utility sticker-accent {
+  border: 2px solid var(--line-strong);
+  box-shadow: 5px 5px 0 0 var(--card-accent, var(--brand));
+  transition:
+    transform 0.28s cubic-bezier(0.34, 1.4, 0.64, 1),
+    box-shadow 0.28s cubic-bezier(0.34, 1.4, 0.64, 1);
+  &:hover {
+    transform: translate3d(-3px, -4px, 0);
+    box-shadow: 10px 12px 0 0 var(--card-accent, var(--brand));
+  }
+  &:active {
+    transform: translate3d(2px, 2px, 0);
+    box-shadow: 2px 2px 0 0 var(--card-accent, var(--brand));
+  }
+}
+
+/* Playful dotted ground used behind quiet sections */
+@utility bg-dot-grid {
+  background-image: radial-gradient(
+    color-mix(in oklab, var(--line-strong) 26%, transparent) 1.5px,
+    transparent 1.5px
+  );
+  background-size: 22px 22px;
+}
+
+@utility bg-rule-grid {
+  background-image:
+    linear-gradient(to right, color-mix(in oklab, var(--line) 70%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in oklab, var(--line) 70%, transparent) 1px, transparent 1px);
+  background-size: 72px 72px;
+}
+
+/* Diagonal barber stripes — used on section edges and ticker rails */
+@utility bg-stripes {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    color-mix(in oklab, var(--card-accent, var(--brand)) 22%, transparent) 0 6px,
+    transparent 6px 12px
+  );
+}
+
+@utility hide-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  &::-webkit-scrollbar { display: none; }
+}
+
+/* Small caps label used for eyebrows and metadata */
+@utility label-caps {
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+/* Organic squircle that slowly morphs — used behind SVG scenes */
+@utility blob-mask {
+  border-radius: 62% 38% 46% 54% / 54% 48% 52% 46%;
+  animation: blob 14s ease-in-out infinite;
+}
+
+/* A hand-drawn looking underline that sits behind a word */
+@utility highlight-swipe {
+  position: relative;
+  isolation: isolate;
+  &::after {
+    content: "";
+    position: absolute;
+    inset-inline: -0.15em;
+    bottom: 0.02em;
+    height: 0.36em;
+    z-index: -1;
+    background-color: color-mix(in oklab, var(--accent) 45%, transparent);
+    border-radius: 0.3em 0.6em 0.4em 0.5em;
+    transform: rotate(-0.6deg);
+  }
+}
+
+/* ------------------------------------------------------------------ *
+ *  Motion
+ * ------------------------------------------------------------------ */
+@keyframes fade-up {
+  from { opacity: 0; transform: translate3d(0, 14px, 0); }
+  to   { opacity: 1; transform: none; }
+}
+
+@keyframes pop-in {
+  from { opacity: 0; transform: scale(0.86) translate3d(0, 10px, 0); }
+  to   { opacity: 1; transform: none; }
+}
+
+@keyframes slide-progress {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  50%      { transform: translate3d(0, -14px, 0); }
+}
+
+@keyframes bob {
+  0%, 100% { transform: translate3d(0, 0, 0) rotate(-3deg); }
+  50%      { transform: translate3d(0, -8px, 0) rotate(3deg); }
+}
+
+@keyframes wobble {
+  0%, 100% { transform: rotate(-6deg); }
+  50%      { transform: rotate(6deg); }
+}
+
+@keyframes blob {
+  0%, 100% { border-radius: 62% 38% 46% 54% / 54% 48% 52% 46%; }
+  33%      { border-radius: 42% 58% 62% 38% / 44% 62% 38% 56%; }
+  66%      { border-radius: 55% 45% 36% 64% / 62% 38% 62% 38%; }
+}
+
+@keyframes marquee {
+  from { transform: translate3d(0, 0, 0); }
+  to   { transform: translate3d(-50%, 0, 0); }
+}
+
+@keyframes dash-draw {
+  from { stroke-dashoffset: var(--dash-from, 300); }
+  to   { stroke-dashoffset: 0; }
+}
+
+/* Data pulses running along a circuit trace */
+@keyframes trace-flow {
+  from { stroke-dashoffset: 90; }
+  to   { stroke-dashoffset: 0; }
+}
+
+/* Ball physics: a vertical bounce with a squash at the floor */
+@keyframes ball-bounce {
+  0%, 100% { transform: translateY(-46px); animation-timing-function: cubic-bezier(0.4, 0, 1, 1); }
+  50%      { transform: translateY(0); animation-timing-function: cubic-bezier(0, 0, 0.3, 1); }
+}
+
+@keyframes ball-squash {
+  0%, 38%, 62%, 100% { transform: scale(1, 1); }
+  50%                { transform: scale(1.14, 0.86); }
+}
+
+@keyframes shadow-pulse {
+  0%, 100% { transform: scaleX(0.55); opacity: 0.18; }
+  50%      { transform: scaleX(1); opacity: 0.34; }
+}
+
+@keyframes blink {
+  0%, 45%, 100% { opacity: 1; }
+  50%, 95%      { opacity: 0.15; }
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.25; transform: scale(0.7); }
+  50%      { opacity: 1; transform: scale(1.15); }
+}
+
+@keyframes rise {
+  0%   { opacity: 0; transform: translateY(6px) scale(0.8); }
+  20%  { opacity: 1; }
+  100% { opacity: 0; transform: translateY(-34px) scale(1.1); }
+}
+
+@keyframes drift {
+  0%, 100% { transform: translate3d(0, 0, 0) rotate(0deg); }
+  25%      { transform: translate3d(8px, -10px, 0) rotate(4deg); }
+  75%      { transform: translate3d(-8px, 6px, 0) rotate(-4deg); }
+}
+
+/* Utility animation classes for the SVG scenes.
+   SVG needs transform-box: fill-box for percentage transform origins to mean
+   "the middle of this shape" rather than "the middle of the whole canvas". */
+.anim-float  { animation: float 6s ease-in-out infinite; }
+.anim-bob    { animation: bob 3.4s ease-in-out infinite; }
+.anim-drift  { animation: drift 11s ease-in-out infinite; }
+.anim-blink  { animation: blink 2.2s steps(1, end) infinite; }
+.anim-rise   { animation: rise 3.2s ease-out infinite; }
+
+.anim-wobble,
+.anim-spin,
+.anim-twinkle,
+.anim-ball-spin,
+.anim-ball-squash,
+.anim-shadow,
+.anim-pulse-soft {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.anim-wobble  { animation: wobble 5s ease-in-out infinite; }
+.anim-spin    { animation: spin 16s linear infinite; }
+.anim-twinkle { animation: twinkle 2.6s ease-in-out infinite; }
+
+/* Football physics — bounce, squash at the floor, and a spinning pattern */
+.anim-ball-bounce { animation: ball-bounce 1.5s ease-in-out infinite; }
+.anim-ball-squash { animation: ball-squash 1.5s ease-in-out infinite; transform-origin: 50% 100%; }
+.anim-ball-spin   { animation: spin 3.2s linear infinite; }
+.anim-shadow      { animation: shadow-pulse 1.5s ease-in-out infinite; }
+
+/* A bright packet of current running along a circuit trace */
+.anim-trace {
+  stroke-dasharray: 14 76;
+  animation: trace-flow 2.2s linear infinite;
+}
+
+/* Line that draws itself in, then holds */
+.anim-draw {
+  stroke-dasharray: var(--dash-from, 300);
+  animation: dash-draw 1.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes pulse-soft {
+  0%, 100% { transform: scale(1); opacity: 0.85; }
+  50%      { transform: scale(1.12); opacity: 1; }
+}
+.anim-pulse-soft { animation: pulse-soft 1.9s ease-in-out infinite; }
+
+/* Edge-to-edge ticker rail */
+.anim-marquee {
+  animation: marquee 34s linear infinite;
+  will-change: transform;
+}
+
+/* Scroll reveal — driven by IntersectionObserver adding [data-visible] */
+[data-reveal] {
+  opacity: 0;
+  transform: translate3d(0, 18px, 0);
+  transition:
+    opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.55s cubic-bezier(0.34, 1.35, 0.64, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+  will-change: opacity, transform;
+}
+[data-reveal="left"]  { transform: translate3d(-18px, 0, 0); }
+[data-reveal="right"] { transform: translate3d(18px, 0, 0); }
+[data-reveal="scale"] { transform: scale(0.94); }
+[data-reveal="pop"]   { transform: scale(0.9) translate3d(0, 14px, 0); }
+[data-reveal][data-visible="true"] {
+  opacity: 1;
+  transform: none;
+}
+
+/* ------------------------------------------------------------------ *
+ *  Accessibility — respect reduced motion everywhere
+ * ------------------------------------------------------------------ */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

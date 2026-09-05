@@ -1,0 +1,47 @@
+# Pulls the announcements folder from Google Drive every 30 minutes and commits
+# the result. Deleting a file in Drive removes it from the site on the next run.
+#
+# Before this can work, add two repository secrets:
+#   DRIVE_FOLDER_ID   the folder id from its share link
+#   GOOGLE_API_KEY    a Google Cloud API key with the Drive API enabled
+name: Sync announcements from Drive
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-announcements
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Read the Drive folder
+        env:
+          DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        run: node scripts/sync-announcements.mjs
+
+      - name: Commit any change
+        run: |
+          if [ -n "$(git status --porcelain src/data/announcements.json)" ]; then
+            git config user.name  "sac-web-team-bot"
+            git config user.email "noreply@users.noreply.github.com"
+            git add src/data/announcements.json
+            git commit -m "Sync announcements from Drive"
+            git push
+          else
+            echo "Nothing changed."
+          fi

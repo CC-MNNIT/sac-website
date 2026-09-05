@@ -1,0 +1,2970 @@
+[
+  {
+    "slug": "athletics",
+    "name": "Athletics",
+    "category": "sports",
+    "venue": "outdoor",
+    "icon": "run",
+    "image": "",
+    "imageFit": "contain",
+    "clubSlug": "",
+    "committeeId": "athletic-gym-activities",
+    "committeeName": "Athletic & Gym Activities",
+    "facultyInCharge": {
+      "name": "Dr. Rahul Dev",
+      "dept": "MED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/rahul-dev.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Vishal Kumar Gaur",
+      "dept": "EED",
+      "role": "Coordinator",
+      "photo": "/images/faculty/vishal-kumar-gaur.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Ashutosh Mishra",
+        "dept": "AMD",
+        "role": "Track Events",
+        "photo": "/images/faculty/ashutosh-mishra.webp"
+      },
+      {
+        "name": "Dr. Kirtiratan Godbole",
+        "dept": "AMD",
+        "role": "Field Events",
+        "photo": "/images/faculty/kirtiratan-godbole.webp"
+      }
+    ],
+    "about": [],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "cricket",
+    "name": "Cricket",
+    "category": "sports",
+    "venue": "outdoor",
+    "icon": "cricket",
+    "image": "/images/clubs/cricket.webp",
+    "imageFit": "cover",
+    "clubSlug": "cricket-club",
+    "committeeId": "sports-indoor-outdoor-activities",
+    "committeeName": "Sports (Indoor & Outdoor) Activities",
+    "facultyInCharge": {
+      "name": "Dr. Sarsij Tripathi",
+      "dept": "CSED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/sarsij-tripathi.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Niraj Choudhary",
+      "dept": "EED",
+      "role": "Coordinator",
+      "photo": "/images/faculty/dr-niraj-choudhary.webp"
+    },
+    "activityFaculty": [],
+    "about": [
+      "Elite MNNIT Cricket Team Inter NIT Champions: 2019, 2022 Asmita Champions: 2019"
+    ],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [
+      {
+        "year": 2022,
+        "title": "Inter NIT Champions",
+        "description": "Champions at the Inter NIT tournament, 2022.",
+        "teams": []
+      },
+      {
+        "year": 2019,
+        "title": "Inter NIT Champions",
+        "description": "Champions at the Inter NIT tournament, 2019.",
+        "teams": []
+      },
+      {
+        "year": 2019,
+        "title": "Asmita Champions",
+        "description": "Champions at Asmita, 2019.",
+        "teams": []
+      }
+    ],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "football",
+    "name": "Football",
+    "category": "sports",
+    "venue": "outdoor",
+    "icon": "football",
+    "image": "/images/clubs/football.webp",
+    "imageFit": "cover",
+    "clubSlug": "football-club",
+    "committeeId": "sports-indoor-outdoor-activities",
+    "committeeName": "Sports (Indoor & Outdoor) Activities",
+    "facultyInCharge": {
+      "name": "Dr. Sarsij Tripathi",
+      "dept": "CSED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/sarsij-tripathi.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Niraj Choudhary",
+      "dept": "EED",
+      "role": "Coordinator",
+      "photo": "/images/faculty/dr-niraj-choudhary.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Kapil Chandra",
+        "dept": "EED",
+        "role": "Football",
+        "photo": ""
+      }
+    ],
+    "about": [
+      "The MNNIT Football team also known as MNNIT FC, is the official football team of Motilal Nehru National Institute Of Technology Allahabad. It stays active throughout the year and training is done under the supervision of national level coaches."
+    ],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "hockey",
+    "name": "Hockey",
+    "category": "sports",
+    "venue": "outdoor",
+    "icon": "trophy",
+    "image": "",
+    "imageFit": "contain",
+    "clubSlug": "",
+    "committeeId": "sports-indoor-outdoor-activities",
+    "committeeName": "Sports (Indoor & Outdoor) Activities",
+    "facultyInCharge": {
+      "name": "Dr. Sarsij Tripathi",
+      "dept": "CSED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/sarsij-tripathi.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Niraj Choudhary",
+      "dept": "EED",
+      "role": "Coordinator",
+      "photo": "/images/faculty/dr-niraj-choudhary.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Supriya Yadav",
+        "dept": "Mathematics",
+        "role": "Hockey",
+        "photo": "/images/faculty/dr-supriya-yadav.webp"
+      }
+    ],
+    "about": [],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "basketball",
+    "name": "Basketball",
+    "category": "sports",
+    "venue": "outdoor",
+    "icon": "basketball",
+    "image": "/images/clubs/basketball.webp",
+    "imageFit": "cover",
+    "clubSlug": "basketball-club",
+    "committeeId": "sports-indoor-outdoor-activities",
+    "committeeName": "Sports (Indoor & Outdoor) Activities",
+    "facultyInCharge": {
+      "name": "Dr. Sarsij Tripathi",
+      "dept": "CSED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/sarsij-tripathi.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Niraj Choudhary",
+      "dept": "EED",
+      "role": "Coordinator",
+      "photo": "/images/faculty/dr-niraj-choudhary.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Swastik Acharya",
+        "dept": "MED",
+        "role": "Basketball",
+        "photo": "/images/faculty/swastik-acharya.webp"
+      }
+    ],
+    "about": [
+      "'Sportsmanship is not just a skill but an epitome of lifestyle built with discipline', and that's the spirit that the MNNIT BASKETBALL CLUB carries with it. Our club is open to each and every memeber of MNNIT who have a passion for the game and an addiction to competitiveness."
+    ],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "volleyball",
+    "name": "Volleyball",
+    "category": "sports",
+    "venue": "outdoor",
+    "icon": "trophy",
+    "image": "",
+    "imageFit": "contain",
+    "clubSlug": "",
+    "committeeId": "sports-indoor-outdoor-activities",
+    "committeeName": "Sports (Indoor & Outdoor) Activities",
+    "facultyInCharge": {
+      "name": "Dr. Sarsij Tripathi",
+      "dept": "CSED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/sarsij-tripathi.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Niraj Choudhary",
+      "dept": "EED",
+      "role": "Coordinator",
+      "photo": "/images/faculty/dr-niraj-choudhary.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Bharat Rajan",
+        "dept": "CED",
+        "role": "Volleyball",
+        "photo": "/images/faculty/bharat-rajan.webp"
+      }
+    ],
+    "about": [],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "lawn-tennis",
+    "name": "Lawn Tennis",
+    "category": "sports",
+    "venue": "outdoor",
+    "icon": "tennis",
+    "image": "/images/clubs/lawn_tennis.webp",
+    "imageFit": "cover",
+    "clubSlug": "lawn-tennis-club",
+    "committeeId": "sports-indoor-outdoor-activities",
+    "committeeName": "Sports (Indoor & Outdoor) Activities",
+    "facultyInCharge": {
+      "name": "Dr. Sarsij Tripathi",
+      "dept": "CSED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/sarsij-tripathi.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Niraj Choudhary",
+      "dept": "EED",
+      "role": "Coordinator",
+      "photo": "/images/faculty/dr-niraj-choudhary.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Ajay Kumar Mandrawalia",
+        "dept": "CED",
+        "role": "Lawn Tennis",
+        "photo": "/images/faculty/ajay-mandrawalia.webp"
+      }
+    ],
+    "about": [
+      "awn Tennis college team. We participate in various tournaments like Inter NIT, Spardha(IIT BHU ssports fest), etc representing MNNIT."
+    ],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "kabaddi",
+    "name": "Kabaddi",
+    "category": "sports",
+    "venue": "outdoor",
+    "icon": "kabaddi",
+    "image": "/images/clubs/kabaddi.webp",
+    "imageFit": "contain",
+    "clubSlug": "kabaddi-club",
+    "committeeId": "sports-indoor-outdoor-activities",
+    "committeeName": "Sports (Indoor & Outdoor) Activities",
+    "facultyInCharge": {
+      "name": "Dr. Sarsij Tripathi",
+      "dept": "CSED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/sarsij-tripathi.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Niraj Choudhary",
+      "dept": "EED",
+      "role": "Coordinator",
+      "photo": "/images/faculty/dr-niraj-choudhary.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Hukum Chand Dewangan",
+        "dept": "MED",
+        "role": "Kabaddi",
+        "photo": "/images/faculty/hukum-chand-dewangan.webp"
+      }
+    ],
+    "about": [
+      "Welcome to the Kabaddi Club. Kabaddi club works in development of sportsmanship and team spirit in the students of our college.Our teams practice regularly for upcoming tournaments."
+    ],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "kho-kho",
+    "name": "Kho-Kho",
+    "category": "sports",
+    "venue": "outdoor",
+    "icon": "run",
+    "image": "",
+    "imageFit": "contain",
+    "clubSlug": "",
+    "committeeId": "sports-indoor-outdoor-activities",
+    "committeeName": "Sports (Indoor & Outdoor) Activities",
+    "facultyInCharge": {
+      "name": "Dr. Sarsij Tripathi",
+      "dept": "CSED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/sarsij-tripathi.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Niraj Choudhary",
+      "dept": "EED",
+      "role": "Coordinator",
+      "photo": "/images/faculty/dr-niraj-choudhary.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Abhinav Kumar",
+        "dept": "CSED",
+        "role": "Kho-Kho",
+        "photo": "/images/faculty/abhinav-kumar.webp"
+      }
+    ],
+    "about": [],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "skating",
+    "name": "Skating",
+    "category": "sports",
+    "venue": "outdoor",
+    "icon": "skate",
+    "image": "/images/clubs/skating.webp",
+    "imageFit": "contain",
+    "clubSlug": "skating-club",
+    "committeeId": "sports-indoor-outdoor-activities",
+    "committeeName": "Sports (Indoor & Outdoor) Activities",
+    "facultyInCharge": {
+      "name": "Dr. Sarsij Tripathi",
+      "dept": "CSED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/sarsij-tripathi.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Niraj Choudhary",
+      "dept": "EED",
+      "role": "Coordinator",
+      "photo": "/images/faculty/dr-niraj-choudhary.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Anuja Dixit",
+        "dept": "CSED",
+        "role": "Skating",
+        "photo": "/images/faculty/anuja-dixit.webp"
+      }
+    ],
+    "about": [
+      "Skating club is a club that brings together individuals who share a passion for skating. The club provides a space for members to learn new skills and participate in various skating- related activities."
+    ],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "badminton",
+    "name": "Badminton",
+    "category": "sports",
+    "venue": "indoor",
+    "icon": "trophy",
+    "image": "",
+    "imageFit": "contain",
+    "clubSlug": "",
+    "committeeId": "sports-indoor-outdoor-activities",
+    "committeeName": "Sports (Indoor & Outdoor) Activities",
+    "facultyInCharge": {
+      "name": "Dr. Sarsij Tripathi",
+      "dept": "CSED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/sarsij-tripathi.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Niraj Choudhary",
+      "dept": "EED",
+      "role": "Coordinator",
+      "photo": "/images/faculty/dr-niraj-choudhary.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Satish Chandra",
+        "dept": "ECED",
+        "role": "Badminton",
+        "photo": "/images/faculty/satish-chandra.webp"
+      }
+    ],
+    "about": [],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "table-tennis",
+    "name": "Table Tennis",
+    "category": "sports",
+    "venue": "indoor",
+    "icon": "tt",
+    "image": "/images/clubs/tt.webp",
+    "imageFit": "cover",
+    "clubSlug": "table-tennis-club",
+    "committeeId": "sports-indoor-outdoor-activities",
+    "committeeName": "Sports (Indoor & Outdoor) Activities",
+    "facultyInCharge": {
+      "name": "Dr. Sarsij Tripathi",
+      "dept": "CSED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/sarsij-tripathi.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Niraj Choudhary",
+      "dept": "EED",
+      "role": "Coordinator",
+      "photo": "/images/faculty/dr-niraj-choudhary.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Sachin Kadam",
+        "dept": "ECED",
+        "role": "Table-Tennis",
+        "photo": "/images/faculty/sachin-kadam.webp"
+      }
+    ],
+    "about": [
+      "Table tennis is a popular indoor sport that requires quick-response movements as well as agility.It's a fast-paced game that requires agility and stamina in a small range of motion."
+    ],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "chess",
+    "name": "Chess",
+    "category": "sports",
+    "venue": "indoor",
+    "icon": "chess",
+    "image": "/images/clubs/chess.webp",
+    "imageFit": "contain",
+    "clubSlug": "chess-club",
+    "committeeId": "sports-indoor-outdoor-activities",
+    "committeeName": "Sports (Indoor & Outdoor) Activities",
+    "facultyInCharge": {
+      "name": "Dr. Sarsij Tripathi",
+      "dept": "CSED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/sarsij-tripathi.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Niraj Choudhary",
+      "dept": "EED",
+      "role": "Coordinator",
+      "photo": "/images/faculty/dr-niraj-choudhary.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Anand Mohan Verma",
+        "dept": "ChED",
+        "role": "Chess and Carom",
+        "photo": "/images/faculty/anand-mohan-verma.webp"
+      }
+    ],
+    "about": [
+      "We play and promote Chess and events."
+    ],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "weightlifting-powerlifting",
+    "name": "Weightlifting / Powerlifting",
+    "category": "sports",
+    "venue": "indoor",
+    "icon": "lift",
+    "image": "/images/clubs/lifting.webp",
+    "imageFit": "contain",
+    "clubSlug": "lifting-club",
+    "committeeId": "athletic-gym-activities",
+    "committeeName": "Athletic & Gym Activities",
+    "facultyInCharge": {
+      "name": "Dr. Rahul Dev",
+      "dept": "MED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/rahul-dev.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Vishal Kumar Gaur",
+      "dept": "EED",
+      "role": "Coordinator",
+      "photo": "/images/faculty/vishal-kumar-gaur.webp"
+    },
+    "activityFaculty": [],
+    "about": [
+      "The Lifting Club of MNNIT (LCM) is a hub for strength enthusiasts, supporting power sports like weightlifting, powerlifting, and bodybuilding. We provide students with the resources and community to train, compete, and achieve their fitness goals. Join us to push your limits and grow stronger together!"
+    ],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "martial-arts",
+    "name": "Martial Arts",
+    "category": "sports",
+    "venue": "indoor",
+    "icon": "trophy",
+    "image": "",
+    "imageFit": "contain",
+    "clubSlug": "",
+    "committeeId": "sports-indoor-outdoor-activities",
+    "committeeName": "Sports (Indoor & Outdoor) Activities",
+    "facultyInCharge": {
+      "name": "Dr. Sarsij Tripathi",
+      "dept": "CSED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/sarsij-tripathi.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Niraj Choudhary",
+      "dept": "EED",
+      "role": "Coordinator",
+      "photo": "/images/faculty/dr-niraj-choudhary.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Nirmal Ch Roy",
+        "dept": "ECED",
+        "role": "Martial Arts (Taekwondo / Karate)",
+        "photo": "/images/faculty/nirmal-roy.webp"
+      }
+    ],
+    "about": [],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "dramatics",
+    "name": "Dramatics",
+    "category": "cultural",
+    "venue": null,
+    "icon": "mask",
+    "image": "/images/clubs/drams.webp",
+    "imageFit": "contain",
+    "clubSlug": "alchemy",
+    "committeeId": "cultural-activities",
+    "committeeName": "Cultural Activities",
+    "facultyInCharge": {
+      "name": "Dr. Sameer Srivastava",
+      "dept": "Biotech",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/sameer-srivastava.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Soman Dey",
+      "dept": "SMS",
+      "role": "Coordinator",
+      "photo": "/images/faculty/soman-dey.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Karthick Senthilkumar",
+        "dept": "ChED",
+        "role": "Dramatics Club",
+        "photo": "/images/faculty/karthick-senthilkumar.webp"
+      }
+    ],
+    "about": [
+      "Alchemy is the vibrant dramatics club of MNNIT that brings together students from diverse backgrounds who share a passion for theater and performance. With a mission to create meaningful and impactful productions.Alchemy provides a platform for students to hone thier craft and show their acting, writing & directing talent."
+    ],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "music",
+    "name": "Music",
+    "category": "cultural",
+    "venue": null,
+    "icon": "music",
+    "image": "",
+    "imageFit": "contain",
+    "clubSlug": "",
+    "committeeId": "cultural-activities",
+    "committeeName": "Cultural Activities",
+    "facultyInCharge": {
+      "name": "Dr. Sameer Srivastava",
+      "dept": "Biotech",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/sameer-srivastava.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Soman Dey",
+      "dept": "SMS",
+      "role": "Coordinator",
+      "photo": "/images/faculty/soman-dey.webp"
+    },
+    "activityFaculty": [],
+    "about": [],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "dance",
+    "name": "Dance",
+    "category": "cultural",
+    "venue": null,
+    "icon": "music",
+    "image": "",
+    "imageFit": "contain",
+    "clubSlug": "",
+    "committeeId": "cultural-activities",
+    "committeeName": "Cultural Activities",
+    "facultyInCharge": {
+      "name": "Dr. Sameer Srivastava",
+      "dept": "Biotech",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/sameer-srivastava.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Soman Dey",
+      "dept": "SMS",
+      "role": "Coordinator",
+      "photo": "/images/faculty/soman-dey.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Satish Chandra",
+        "dept": "ECED",
+        "role": "Dance Club",
+        "photo": "/images/faculty/satish-chandra.webp"
+      }
+    ],
+    "about": [],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "fine-arts",
+    "name": "Fine Arts",
+    "category": "cultural",
+    "venue": null,
+    "icon": "pen",
+    "image": "",
+    "imageFit": "contain",
+    "clubSlug": "",
+    "committeeId": "cultural-activities",
+    "committeeName": "Cultural Activities",
+    "facultyInCharge": {
+      "name": "Dr. Sameer Srivastava",
+      "dept": "Biotech",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/sameer-srivastava.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Soman Dey",
+      "dept": "SMS",
+      "role": "Coordinator",
+      "photo": "/images/faculty/soman-dey.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Shubham Gupta",
+        "dept": "Mathematics",
+        "role": "Arts & Painting Club",
+        "photo": "/images/faculty/shubham-gupta.webp"
+      }
+    ],
+    "about": [],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "photography",
+    "name": "Photography",
+    "category": "cultural",
+    "venue": null,
+    "icon": "star",
+    "image": "",
+    "imageFit": "contain",
+    "clubSlug": "",
+    "committeeId": "literary-personality-development-activities",
+    "committeeName": "Literary & Personality Development Activities",
+    "facultyInCharge": {
+      "name": "Dr. Rajitha B",
+      "dept": "CSED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/rajitha-b.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Rakesh Kumar",
+      "dept": "SMS",
+      "role": "Coordinator",
+      "photo": "/images/faculty/rakesh-kumar.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Joohi Chauhan",
+        "dept": "CSED",
+        "role": "Photography Club",
+        "photo": "/images/faculty/joohi-chauhan.webp"
+      }
+    ],
+    "about": [],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "film-media",
+    "name": "Film / Media",
+    "category": "cultural",
+    "venue": null,
+    "icon": "star",
+    "image": "",
+    "imageFit": "contain",
+    "clubSlug": "",
+    "committeeId": "literary-personality-development-activities",
+    "committeeName": "Literary & Personality Development Activities",
+    "facultyInCharge": {
+      "name": "Dr. Rajitha B",
+      "dept": "CSED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/rajitha-b.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Rakesh Kumar",
+      "dept": "SMS",
+      "role": "Coordinator",
+      "photo": "/images/faculty/rakesh-kumar.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Binit Kumar",
+        "dept": "CED",
+        "role": "Media Coverage / Website / Social Media",
+        "photo": "/images/faculty/binit-kumar.webp"
+      }
+    ],
+    "about": [],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "modelling-fashion",
+    "name": "Modelling & Fashion Show",
+    "category": "cultural",
+    "venue": null,
+    "icon": "star",
+    "image": "",
+    "imageFit": "contain",
+    "clubSlug": "",
+    "committeeId": "cultural-activities",
+    "committeeName": "Cultural Activities",
+    "facultyInCharge": {
+      "name": "Dr. Sameer Srivastava",
+      "dept": "Biotech",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/sameer-srivastava.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Soman Dey",
+      "dept": "SMS",
+      "role": "Coordinator",
+      "photo": "/images/faculty/soman-dey.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Indu Dohore",
+        "dept": "CSED",
+        "role": "Modelling & Fashion Show Club",
+        "photo": "/images/faculty/indu-dohare.webp"
+      }
+    ],
+    "about": [],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "indian-classical",
+    "name": "Indian Classical Activities",
+    "category": "cultural",
+    "venue": null,
+    "icon": "veena",
+    "image": "",
+    "imageFit": "contain",
+    "clubSlug": "",
+    "committeeId": "indian-classical-activities",
+    "committeeName": "Indian Classical Activities",
+    "facultyInCharge": {
+      "name": "Dr. Bireswar Paul",
+      "dept": "MED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/bireswar-paul.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Uvanesh K",
+      "dept": "AMD",
+      "role": "Coordinator",
+      "photo": "/images/faculty/uvanesh-k.webp"
+    },
+    "activityFaculty": [],
+    "about": [],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "literary-activities",
+    "name": "Literary Activities",
+    "category": "literary",
+    "venue": null,
+    "icon": "book",
+    "image": "/images/clubs/literary.webp",
+    "imageFit": "contain",
+    "clubSlug": "literary-club",
+    "committeeId": "literary-personality-development-activities",
+    "committeeName": "Literary & Personality Development Activities",
+    "facultyInCharge": {
+      "name": "Dr. Rajitha B",
+      "dept": "CSED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/rajitha-b.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Rakesh Kumar",
+      "dept": "SMS",
+      "role": "Coordinator",
+      "photo": "/images/faculty/rakesh-kumar.webp"
+    },
+    "activityFaculty": [],
+    "about": [
+      "'A word after a word after a word is power.' In the words of Atwood, literature is power, a formidable force to be reckoned. At Literary Club, MNNIT, we endeavor to inspire thoughts that instill action through discourse."
+    ],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "debate",
+    "name": "Debate",
+    "category": "literary",
+    "venue": null,
+    "icon": "book",
+    "image": "/images/clubs/drams.webp",
+    "imageFit": "contain",
+    "clubSlug": "quintessence",
+    "committeeId": "literary-personality-development-activities",
+    "committeeName": "Literary & Personality Development Activities",
+    "facultyInCharge": {
+      "name": "Dr. Rajitha B",
+      "dept": "CSED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/rajitha-b.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Rakesh Kumar",
+      "dept": "SMS",
+      "role": "Coordinator",
+      "photo": "/images/faculty/rakesh-kumar.webp"
+    },
+    "activityFaculty": [],
+    "about": [
+      "It is a dramatics which perform nukkad natak, stage play, hasyamanch, monos, duets, and lot other drama activities but apart from that it is not restricted to recruit just actors, it has a aim which is DRAMATICS FOR ALL means If you are a singer, instrumentalist, actor, writer or an amalgam of all these, this is right club to join."
+    ],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "creative-writing",
+    "name": "Creative Writing",
+    "category": "literary",
+    "venue": null,
+    "icon": "pen",
+    "image": "",
+    "imageFit": "contain",
+    "clubSlug": "",
+    "committeeId": "literary-personality-development-activities",
+    "committeeName": "Literary & Personality Development Activities",
+    "facultyInCharge": {
+      "name": "Dr. Rajitha B",
+      "dept": "CSED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/rajitha-b.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Rakesh Kumar",
+      "dept": "SMS",
+      "role": "Coordinator",
+      "photo": "/images/faculty/rakesh-kumar.webp"
+    },
+    "activityFaculty": [],
+    "about": [],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "quiz",
+    "name": "Quiz",
+    "category": "literary",
+    "venue": null,
+    "icon": "book",
+    "image": "",
+    "imageFit": "contain",
+    "clubSlug": "",
+    "committeeId": "literary-personality-development-activities",
+    "committeeName": "Literary & Personality Development Activities",
+    "facultyInCharge": {
+      "name": "Dr. Rajitha B",
+      "dept": "CSED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/rajitha-b.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Rakesh Kumar",
+      "dept": "SMS",
+      "role": "Coordinator",
+      "photo": "/images/faculty/rakesh-kumar.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Brij Kishor",
+        "dept": "AMD",
+        "role": "Quiz Club",
+        "photo": "/images/faculty/brij-kishor.webp"
+      }
+    ],
+    "about": [],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "srijan-magazine",
+    "name": "Annual Magazine – Srijan",
+    "category": "literary",
+    "venue": null,
+    "icon": "pen",
+    "image": "/images/clubs/srijan.webp",
+    "imageFit": "contain",
+    "clubSlug": "srijan",
+    "committeeId": "literary-personality-development-activities",
+    "committeeName": "Literary & Personality Development Activities",
+    "facultyInCharge": {
+      "name": "Dr. Rajitha B",
+      "dept": "CSED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/rajitha-b.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Rakesh Kumar",
+      "dept": "SMS",
+      "role": "Coordinator",
+      "photo": "/images/faculty/rakesh-kumar.webp"
+    },
+    "activityFaculty": [],
+    "about": [
+      "Srijan is the yearly publication of MNNIT, the annual magazine, providing an open platform for individuals be it current students or the alums, to express their thoughts and ideas freely. It serves as a forum where people can share their views without fear of judgment or censorship. It is a canvas for creativity where people can showcase their talents and skills."
+    ],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "computer-coding",
+    "name": "Computer Coding",
+    "category": "technical",
+    "venue": null,
+    "icon": "terminal",
+    "image": "/images/gallery/hack36/hack-36-06.webp",
+    "imageFit": "cover",
+    "clubSlug": "computer-coding-club",
+    "committeeId": "technological-activities",
+    "committeeName": "Technological Activities",
+    "facultyInCharge": {
+      "name": "Dr. V.P. Singh",
+      "dept": "CED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/vp-singh.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Vibhav Prakash Singh",
+      "dept": "CSED",
+      "role": "Coordinator",
+      "photo": "/images/faculty/vibhav-prakash-singh.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Vibhav Prakash Singh",
+        "dept": "CSED",
+        "role": "Faculty Coordinator, Computer Coding Club",
+        "photo": "/images/faculty/vibhav-prakash-singh.webp"
+      }
+    ],
+    "about": [
+      "We host several events in the domain of Computer Science And Engineering for which we also conduct classes on regular basis. Students from various courses actively participate in these events and classes throughout the year."
+    ],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [
+      {
+        "name": "Ayush Tiwari",
+        "role": "Coordinator",
+        "linkedin": "https://in.linkedin.com/in/ayushtiwarimnnit"
+      },
+      {
+        "name": "Shubhranshu Mishra",
+        "role": "Coordinator",
+        "linkedin": "https://in.linkedin.com/in/shubhranshu-mishra-092311256"
+      },
+      {
+        "name": "Samudraneel Sarkar",
+        "role": "Coordinator"
+      },
+      {
+        "name": "Shanu Kumawat",
+        "role": "Coordinator",
+        "linkedin": "https://in.linkedin.com/in/shanukumawat"
+      },
+      {
+        "name": "Himanshu Kumar",
+        "role": "Coordinator",
+        "linkedin": "https://in.linkedin.com/in/himanshukumar46"
+      },
+      {
+        "name": "Shourya Mishra",
+        "role": "Coordinator",
+        "linkedin": "https://in.linkedin.com/in/shourya-mishra-33482227b"
+      },
+      {
+        "name": "Prakhar Garg",
+        "role": "Coordinator"
+      },
+      {
+        "name": "Sakshi Patil",
+        "role": "Coordinator"
+      },
+      {
+        "name": "Arjun Gaur",
+        "role": "Coordinator"
+      },
+      {
+        "name": "Harshit Kumar",
+        "role": "Coordinator"
+      },
+      {
+        "name": "Abhay Sachan",
+        "role": "Coordinator"
+      },
+      {
+        "name": "Rishi Prasad Sulakhe",
+        "role": "Coordinator",
+        "linkedin": "https://in.linkedin.com/in/rishiprasadsulakhe"
+      },
+      {
+        "name": "Surya Pratap Singh",
+        "role": "Coordinator"
+      },
+      {
+        "name": "Parth Kamleshkumar Panchiwala",
+        "role": "Coordinator"
+      },
+      {
+        "name": "Uditansh Srivastava",
+        "role": "Coordinator"
+      },
+      {
+        "name": "Naman Agarwal",
+        "role": "Coordinator"
+      }
+    ],
+    "schedule": [],
+    "facilities": [],
+    "events": [
+      "Weekend of Code",
+      "CodeSangam",
+      "ContriHub",
+      "Hack36"
+    ],
+    "results": [],
+    "achievements": [
+      {
+        "year": 2023,
+        "title": "ICPC Asia West Finalist",
+        "description": "Reached finals of ICPC Asia West Regionals 2023.",
+        "teams": [
+          {
+            "name": "Team",
+            "members": [
+              {
+                "name": "Diptarag Ray Chaudhuri",
+                "linkedin": "https://www.linkedin.com/in/diptarag-ray-chaudhuri/"
+              },
+              {
+                "name": "Alok Kumar Singh",
+                "linkedin": "https://www.linkedin.com/in/alok-kumar-singh07/"
+              },
+              {
+                "name": "Nitin Gangwar",
+                "linkedin": "https://www.linkedin.com/in/nitin-gangwar-4253b71b7/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "gallery": [
+      "/images/gallery/hack36/hack-36-01.webp",
+      "/images/gallery/hack36/hack-36-02.webp",
+      "/images/gallery/hack36/hack-36-03.webp",
+      "/images/gallery/hack36/hack-36-04.webp",
+      "/images/gallery/hack36/hack-36-05.webp",
+      "/images/gallery/hack36/hack-36-06.webp"
+    ],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [
+      {
+        "label": "cc-club.in",
+        "href": "https://cc-club.in/"
+      }
+    ],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": "https://cc-club.in/"
+    }
+  },
+  {
+    "slug": "robotics",
+    "name": "Robotics",
+    "category": "technical",
+    "venue": null,
+    "icon": "robot",
+    "image": "/images/clubs/roboclub.webp",
+    "imageFit": "contain",
+    "clubSlug": "robotics-club",
+    "committeeId": "technological-activities",
+    "committeeName": "Technological Activities",
+    "facultyInCharge": {
+      "name": "Dr. V.P. Singh",
+      "dept": "CED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/vp-singh.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Vibhav Prakash Singh",
+      "dept": "CSED",
+      "role": "Coordinator",
+      "photo": "/images/faculty/vibhav-prakash-singh.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Jitendra N. Gangwar",
+        "dept": "MED",
+        "role": "Robotics",
+        "photo": "/images/faculty/jitendra-gangwar.webp"
+      }
+    ],
+    "about": [
+      "Robotics Club MNNIT is a diverse group of robotics enthusiasts from all the college departments.We are mainly concerned with building robots for academic purposes, competing at national events, or even building just out of imagination."
+    ],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [
+      {
+        "year": 2021,
+        "title": "e-Yantra - Successfully Completed Till Task 6, Top 10 (Theme - Vitaran drone)",
+        "description": "Placed top 10 out of 365 teams in the event of year-long Robotics Competition By IIT Bombay & MHRD.",
+        "teams": [
+          {
+            "name": "Team",
+            "members": [
+              {
+                "name": "Purushotam Kumar Agrawal",
+                "linkedin": "https://www.linkedin.com/in/puru2411"
+              },
+              {
+                "name": "Mehul Singhal",
+                "linkedin": "https://www.linkedin.com/in/mehul-singhal-9bb75a1a0"
+              },
+              {
+                "name": "Anurag Gupta",
+                "linkedin": "https://www.linkedin.com/mwlite/in/anurag-gupta-806a161aa"
+              },
+              {
+                "name": "Abhishek Pathak",
+                "linkedin": "https://www.linkedin.com/in/abhishek-kumar-pathak-07b929146"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "title": "Technex - Maze Explorer - Third Position",
+        "description": "Placed 3rd in the event conducted at IIT BHU (Technex).",
+        "teams": [
+          {
+            "name": "Team",
+            "members": [
+              {
+                "name": "Purushotam Kumar Agrawal",
+                "linkedin": "https://www.linkedin.com/in/puru2411"
+              },
+              {
+                "name": "Mehul Singhal",
+                "linkedin": "https://www.linkedin.com/in/mehul-singhal-9bb75a1a0"
+              },
+              {
+                "name": "Pravesh Pandey",
+                "linkedin": "https://www.linkedin.com/mwlite/in/pravesh25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2019,
+        "title": "Techkriti - Embedded Event - Second Runner Up",
+        "description": "Won the event conducted at IIT KGP (Megalith).",
+        "teams": [
+          {
+            "name": "Team",
+            "members": [
+              {
+                "name": "Anuj Tiwari",
+                "linkedin": "https://www.linkedin.com/in/anuj-tiwari-mnnit"
+              },
+              {
+                "name": "Shishir Agarahri",
+                "linkedin": "https://www.linkedin.com/in/shishiragrahari0310"
+              },
+              {
+                "name": "Saurabh Kumar Yadav",
+                "linkedin": "https://www.linkedin.com/in/saurabh-1729"
+              },
+              {
+                "name": "Prashant Tripathi",
+                "linkedin": "https://www.linkedin.com/in/prashant-tripathi-264ab81b5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2019,
+        "title": "Megalith - Manual Robotics Championship - Winner",
+        "description": "Won the event conducted at IIT KGP (Megalith).",
+        "teams": [
+          {
+            "name": "Team",
+            "members": [
+              {
+                "name": "Anurag Upadhyay",
+                "linkedin": "https://www.linkedin.com/in/anurag-upadhyay-20171021"
+              },
+              {
+                "name": "Asit Kumar",
+                "linkedin": "https://www.linkedin.com/in/asit-kumar-bb0a6a182"
+              },
+              {
+                "name": "Ashish Kumar Gautam",
+                "linkedin": ""
+              },
+              {
+                "name": "Akash Kumar",
+                "linkedin": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2019,
+        "title": "e-Yantra - SemiFinalist (Theme - Pollinator Bee)",
+        "description": "Reached semi-finals in the event of year-long Robotics Competition By IIT Bombay & MHRD.",
+        "teams": [
+          {
+            "name": "Team",
+            "members": [
+              {
+                "name": "Bhuvan Jhamb",
+                "linkedin": "https://www.linkedin.com/in/bhuvanjhamb"
+              },
+              {
+                "name": "Keshari Tiwari",
+                "linkedin": "https://www.linkedin.com/in/keshari-nath-tiwari-7a11b6149"
+              },
+              {
+                "name": "Parag Saroha",
+                "linkedin": "https://www.linkedin.com/in/parag-saroha-28b469168"
+              },
+              {
+                "name": "Archit Chaudhary",
+                "linkedin": "https://www.linkedin.com/in/archit-chaudhary-010a78164"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2018,
+        "title": "e-Yantra - Chaser Drone - Second Stage",
+        "description": "Reached second year in the event of year-long Robotics Competition By IIT Bombay & MHRD.",
+        "teams": [
+          {
+            "name": "Team",
+            "members": [
+              {
+                "name": "Kartik Singh",
+                "linkedin": "https://www.linkedin.com/in/kartik-singh-lmp"
+              },
+              {
+                "name": "Prateek Kumar Rai",
+                "linkedin": "https://www.linkedin.com/in/prateek-kumar-rai-697981103"
+              },
+              {
+                "name": "Jaswant",
+                "linkedin": ""
+              },
+              {
+                "name": "Murlidhar Patidar",
+                "linkedin": "https://www.linkedin.com/in/murlidhar-patidar1996"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2018,
+        "title": "Techkriti - Embedded - Second Position | Home Automation - Third",
+        "description": "Placed 2nd and 3rd in event conducted at IIT Kanpur (Techkriti).",
+        "teams": [
+          {
+            "name": "2nd Placed Team",
+            "members": [
+              {
+                "name": "Anshul Singh",
+                "linkedin": "https://www.linkedin.com/in/anshulsingh747"
+              },
+              {
+                "name": "Arsh Singh",
+                "linkedin": "https://www.linkedin.com/in/arshsingh474"
+              },
+              {
+                "name": "Manas Abhilash Gundapuneni",
+                "linkedin": "https://www.linkedin.com/in/gundapuneni"
+              }
+            ]
+          },
+          {
+            "name": "3rd Placed Team",
+            "members": [
+              {
+                "name": "Gaurav Bansal",
+                "linkedin": "https://www.linkedin.com/in/gauravbansal98"
+              },
+              {
+                "name": "Namrta Lakhwan",
+                "linkedin": "https://www.linkedin.com/in/namrta-lakhwan-27647a138"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2018,
+        "title": "Techkriti - Manual Robotics - Finalist",
+        "description": "Placed under top 4 with over more than ~70+ teams in event conducted at IIT Kanpur (Techkriti).",
+        "teams": [
+          {
+            "name": "Team",
+            "members": [
+              {
+                "name": "Anurag Upadhyay",
+                "linkedin": "https://www.linkedin.com/in/anurag-upadhyay-20171021"
+              },
+              {
+                "name": "Abhishek Singh",
+                "linkedin": "https://www.linkedin.com/in/abhisheksinghchauhan800"
+              },
+              {
+                "name": "Kunal Shrivastav",
+                "linkedin": ""
+              },
+              {
+                "name": "Arjun",
+                "linkedin": ""
+              },
+              {
+                "name": "Deepak",
+                "linkedin": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2018,
+        "title": "Conscientia - Autonomous Robotics - Winner",
+        "description": "Won the event conducted at IIST Thiruvananthapuram",
+        "teams": [
+          {
+            "name": "Team",
+            "members": [
+              {
+                "name": "Anurag Upadhyay",
+                "linkedin": "https://www.linkedin.com/in/anurag-upadhyay-20171021"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2018,
+        "title": "Techkriti - International Autonomous Robotics Competition - 2 Teams - Finalists",
+        "description": "Placed under top 5 with over more than ~70+ teams in event conducted at IIT Kanpur (Techkriti).",
+        "teams": [
+          {
+            "name": "Team 1",
+            "members": [
+              {
+                "name": "Bhuvan Jhamb",
+                "linkedin": "https://www.linkedin.com/in/bhuvanjhamb"
+              },
+              {
+                "name": "Nitish Gupta",
+                "linkedin": "https://www.linkedin.com/in/nitishgupta1101"
+              },
+              {
+                "name": "Parag Saroha",
+                "linkedin": "https://www.linkedin.com/in/parag-saroha-28b469168"
+              },
+              {
+                "name": "Shivam Garg",
+                "linkedin": "https://www.linkedin.com/in/shivam-garg-mnnit"
+              },
+              {
+                "name": "Sachin Kumar",
+                "linkedin": "https://www.linkedin.com/in/sachin-kumar-951b8718b"
+              }
+            ]
+          },
+          {
+            "name": "Team 2",
+            "members": [
+              {
+                "name": "Sahaj Bamba",
+                "linkedin": "https://www.linkedin.com/in/sahaj-bamba"
+              },
+              {
+                "name": "Akshat Agrawal",
+                "linkedin": "https://www.linkedin.com/in/akshat-agrawal-1b2445157"
+              },
+              {
+                "name": "Satyam Sharma",
+                "linkedin": "https://www.linkedin.com/in/satyam-sharma-mnnit"
+              },
+              {
+                "name": "Hamza Siddhiqui",
+                "linkedin": "https://www.linkedin.com/in/mohammed-hamza-siddiqui-68b076190"
+              },
+              {
+                "name": "Shaurya Pant",
+                "linkedin": "https://www.linkedin.com/in/shauryapant"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2017,
+        "title": "e-Yantra - Launch a Module - Finalists",
+        "description": "Finalist in the year-long Robotics Competition By IIT Bombay &amp; MHRD",
+        "teams": [
+          {
+            "name": "Team",
+            "members": [
+              {
+                "name": "Ayush Gaurav",
+                "linkedin": "https://www.linkedin.com/in/kartik-singh-lmp"
+              },
+              {
+                "name": "Prateek Kumar Rai",
+                "linkedin": "https://www.linkedin.com/in/prateek-kumar-rai-697981103"
+              },
+              {
+                "name": "Prashant Singh",
+                "linkedin": "https://www.linkedin.com/in/prashant-singh-a2b564147"
+              },
+              {
+                "name": "Sachin Choudhary",
+                "linkedin": "https://www.linkedin.com/in/choudhari2049"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2017,
+        "title": "e-Yantra - Finalist",
+        "description": "Finalist in the year-long Robotics Competition By IIT Bombay &amp; MHRD",
+        "teams": [
+          {
+            "name": "Team",
+            "members": [
+              {
+                "name": "Ayush Gaurav",
+                "linkedin": "https://www.linkedin.com/in/kartik-singh-lmp"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2017,
+        "title": "Techkriti - Electromania - Winner",
+        "description": "Won the event conducted at IIT Kanpur (Techkriti).",
+        "teams": [
+          {
+            "name": "Team",
+            "members": [
+              {
+                "name": "Shubham Maurya",
+                "linkedin": "https://www.linkedin.com/in/shubham-maurya-565978bb"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2017,
+        "title": "Techkriti - Electromania : Circuit Design - Third Position",
+        "description": "Placed 3rd in the event conducted at IIT Kanpur (Techkriti).",
+        "teams": [
+          {
+            "name": "Team",
+            "members": [
+              {
+                "name": "Vishal Gupta",
+                "linkedin": "https://www.linkedin.com/in/vishal-gupta-9b450791"
+              },
+              {
+                "name": "Sandeep Kumar",
+                "linkedin": "https://www.linkedin.com/in/sandeepkumar0234"
+              },
+              {
+                "name": "Mohd. Nazar",
+                "linkedin": "https://www.linkedin.com/in/nazar-mohammad-585195102"
+              },
+              {
+                "name": "Neeraj Kumar",
+                "linkedin": "https://www.linkedin.com/in/neeraj-kumar-871199102"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2017,
+        "title": "Techkriti - Electromania : Embedded Design - Winner",
+        "description": "Won the event conducted at IIT Kanpur (Techkriti).",
+        "teams": [
+          {
+            "name": "Team",
+            "members": [
+              {
+                "name": "Vishal Gupta",
+                "linkedin": "https://www.linkedin.com/in/vishal-gupta-9b450791"
+              },
+              {
+                "name": "Sandeep Kumar",
+                "linkedin": "https://www.linkedin.com/in/sandeepkumar0234"
+              },
+              {
+                "name": "Mohd. Nazar",
+                "linkedin": "https://www.linkedin.com/in/nazar-mohammad-585195102"
+              },
+              {
+                "name": "Neeraj Kumar",
+                "linkedin": "https://www.linkedin.com/in/neeraj-kumar-871199102"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2017,
+        "title": "Techkriti - International Autonomous Robotics Competition - Finalist",
+        "description": "Placed under top 5 with over more than ~70+ teams in event conducted at IIT Kanpur (Techkriti).",
+        "teams": [
+          {
+            "name": "Team",
+            "members": [
+              {
+                "name": "Gaurav Bansal",
+                "linkedin": "https://www.linkedin.com/in/gauravbansal98"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2016 and before",
+        "title": "Technex - Maze Explorer - Finalists",
+        "description": "Achieved in event conducted at IIT BHU (Technex).",
+        "teams": [
+          {
+            "name": "Team",
+            "members": [
+              {
+                "name": "Kartik Singh",
+                "linkedin": "https://www.linkedin.com/in/kartik-singh-lmp"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2016 and before",
+        "title": "Techkriti - International Autonomous Robotics Competition - Finalist",
+        "description": "Placed under top 5 with over more than ~70+ teams in event conducted at IIT Kanpur (Techkriti).",
+        "teams": [
+          {
+            "name": "Team",
+            "members": [
+              {
+                "name": "Naveen Chandra",
+                "linkedin": "https://www.linkedin.com/in/naveen-chandra-n23"
+              },
+              {
+                "name": "Vishal Gupta",
+                "linkedin": "https://www.linkedin.com/in/vishal-gupta-9b450791"
+              },
+              {
+                "name": "Mohd. Zaki",
+                "linkedin": "https://www.linkedin.com/in/iamzaki"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2016 and before",
+        "title": "Techkriti - Electromania - Third Position",
+        "description": "Placed 3rd in the event conducted at IIT Kanpur (Techkriti).",
+        "teams": [
+          {
+            "name": "Team",
+            "members": [
+              {
+                "name": "Shashank Singh",
+                "linkedin": "https://www.linkedin.com/in/shashank-singh-b44984128"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2016 and before",
+        "title": "Techkriti - Eureka - Second Position",
+        "description": "Placed 2nd in the event conducted at IIT Kanpur (Techkriti).",
+        "teams": [
+          {
+            "name": "Team",
+            "members": [
+              {
+                "name": "Shubham Sharma",
+                "linkedin": "https://www.linkedin.com/in/shubham-sharma-aa821963"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2016 and before",
+        "title": "Autonomous Robotics - Best Fresher",
+        "description": "Achieved in the event conducted at IIT Kharagpur.",
+        "teams": [
+          {
+            "name": "Team",
+            "members": [
+              {
+                "name": "Naveen Chandra",
+                "linkedin": "https://www.linkedin.com/in/naveen-chandra-n23"
+              },
+              {
+                "name": "Vishal Gupta",
+                "linkedin": "https://www.linkedin.com/in/vishal-gupta-9b450791"
+              },
+              {
+                "name": "Mohd. Zaki",
+                "linkedin": "https://www.linkedin.com/in/iamzaki"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "gallery": [
+      "/images/gallery/avishkar/avishkar-01.webp",
+      "/images/gallery/avishkar/avishkar-02.webp",
+      "/images/gallery/avishkar/avishkar-03.webp",
+      "/images/gallery/avishkar/avishkar-04.webp",
+      "/images/gallery/avishkar/avishkar-05.webp",
+      "/images/gallery/avishkar/avishkar-06.webp",
+      "/images/gallery/avishkar/avishkar-07.webp"
+    ],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "aeromodelling",
+    "name": "Aero / Aeromodelling",
+    "category": "technical",
+    "venue": null,
+    "icon": "plane",
+    "image": "/images/clubs/aeroclub.webp",
+    "imageFit": "contain",
+    "clubSlug": "aeroclub",
+    "committeeId": "technological-activities",
+    "committeeName": "Technological Activities",
+    "facultyInCharge": {
+      "name": "Dr. V.P. Singh",
+      "dept": "CED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/vp-singh.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Vibhav Prakash Singh",
+      "dept": "CSED",
+      "role": "Coordinator",
+      "photo": "/images/faculty/vibhav-prakash-singh.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Abhishek Kundu",
+        "dept": "AMD",
+        "role": "Aero-modelling Club",
+        "photo": "/images/faculty/abhishek-kundu.webp"
+      }
+    ],
+    "about": [
+      "Aero Club MNNIT is a diverse group of aero-science enthusiasts from all the college departments.We are mainly concerned with aeronautical studies for academic purposes, competing at national events, or even building just out of imagination."
+    ],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "astronomy",
+    "name": "Astronomy / Space",
+    "category": "technical",
+    "venue": null,
+    "icon": "star",
+    "image": "/images/clubs/astroclub.webp",
+    "imageFit": "contain",
+    "clubSlug": "astro-club",
+    "committeeId": "technological-activities",
+    "committeeName": "Technological Activities",
+    "facultyInCharge": {
+      "name": "Dr. V.P. Singh",
+      "dept": "CED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/vp-singh.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Vibhav Prakash Singh",
+      "dept": "CSED",
+      "role": "Coordinator",
+      "photo": "/images/faculty/vibhav-prakash-singh.webp"
+    },
+    "activityFaculty": [],
+    "about": [
+      "Astro Club MNNIT is a diverse group of astronomy enthusiasts from all the college departments.We are mainly concerned with astronomy for academic purposes, competing at national events, or even building just out of imagination."
+    ],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "energy",
+    "name": "Energy",
+    "category": "technical",
+    "venue": null,
+    "icon": "chip",
+    "image": "",
+    "imageFit": "contain",
+    "clubSlug": "",
+    "committeeId": "technological-activities",
+    "committeeName": "Technological Activities",
+    "facultyInCharge": {
+      "name": "Dr. V.P. Singh",
+      "dept": "CED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/vp-singh.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Vibhav Prakash Singh",
+      "dept": "CSED",
+      "role": "Coordinator",
+      "photo": "/images/faculty/vibhav-prakash-singh.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Jagat Jyoti Rath",
+        "dept": "EED",
+        "role": "Energy Club",
+        "photo": "/images/faculty/jagat-jyoti-rath.webp"
+      }
+    ],
+    "about": [],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "entrepreneurship",
+    "name": "Entrepreneurship",
+    "category": "innovation",
+    "venue": null,
+    "icon": "rocket",
+    "image": "/images/clubs/ecell.webp",
+    "imageFit": "contain",
+    "clubSlug": "e-cell",
+    "committeeId": "technological-activities",
+    "committeeName": "Technological Activities",
+    "facultyInCharge": {
+      "name": "Dr. V.P. Singh",
+      "dept": "CED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/vp-singh.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Vibhav Prakash Singh",
+      "dept": "CSED",
+      "role": "Coordinator",
+      "photo": "/images/faculty/vibhav-prakash-singh.webp"
+    },
+    "activityFaculty": [],
+    "about": [
+      "E-Cell is a Entrepreneurship community that fosters innovation and creativity among students. Our goal is to create a nationwide community of startup enthusiasts and bring them together under one umbrella."
+    ],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "innovation",
+    "name": "Innovation Activities",
+    "category": "innovation",
+    "venue": null,
+    "icon": "chip",
+    "image": "",
+    "imageFit": "contain",
+    "clubSlug": "",
+    "committeeId": "technological-activities",
+    "committeeName": "Technological Activities",
+    "facultyInCharge": {
+      "name": "Dr. V.P. Singh",
+      "dept": "CED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/vp-singh.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Vibhav Prakash Singh",
+      "dept": "CSED",
+      "role": "Coordinator",
+      "photo": "/images/faculty/vibhav-prakash-singh.webp"
+    },
+    "activityFaculty": [],
+    "about": [],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "yoga",
+    "name": "Yoga",
+    "category": "fitness",
+    "venue": null,
+    "icon": "yoga",
+    "image": "",
+    "imageFit": "contain",
+    "clubSlug": "",
+    "committeeId": "yoga-activities",
+    "committeeName": "Yoga Activities",
+    "facultyInCharge": {
+      "name": "Dr. Dinesh Singh",
+      "dept": "CSED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/dinesh-singh.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Prashanta Majee",
+      "dept": "Mathematics",
+      "role": "Coordinator",
+      "photo": "/images/faculty/prashanta-majee.webp"
+    },
+    "activityFaculty": [],
+    "about": [],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "gymnasium",
+    "name": "Gymnasium & Fitness",
+    "category": "fitness",
+    "venue": null,
+    "icon": "lift",
+    "image": "",
+    "imageFit": "contain",
+    "clubSlug": "",
+    "committeeId": "athletic-gym-activities",
+    "committeeName": "Athletic & Gym Activities",
+    "facultyInCharge": {
+      "name": "Dr. Rahul Dev",
+      "dept": "MED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/rahul-dev.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Vishal Kumar Gaur",
+      "dept": "EED",
+      "role": "Coordinator",
+      "photo": "/images/faculty/vishal-kumar-gaur.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Shubh Lakshmi",
+        "dept": "EED",
+        "role": "Gymkhana (Girls)",
+        "photo": "/images/faculty/shubh-lakshmi.webp"
+      }
+    ],
+    "about": [],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "personality-development",
+    "name": "Personality Development",
+    "category": "personality",
+    "venue": null,
+    "icon": "users",
+    "image": "",
+    "imageFit": "contain",
+    "clubSlug": "",
+    "committeeId": "literary-personality-development-activities",
+    "committeeName": "Literary & Personality Development Activities",
+    "facultyInCharge": {
+      "name": "Dr. Rajitha B",
+      "dept": "CSED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/rajitha-b.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Rakesh Kumar",
+      "dept": "SMS",
+      "role": "Coordinator",
+      "photo": "/images/faculty/rakesh-kumar.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Deepak Gupta",
+        "dept": "CSED",
+        "role": "Personality Development",
+        "photo": "/images/faculty/deepak-gupta.webp"
+      }
+    ],
+    "about": [],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "community-development",
+    "name": "Community Development",
+    "category": "social",
+    "venue": null,
+    "icon": "network",
+    "image": "",
+    "imageFit": "contain",
+    "clubSlug": "",
+    "committeeId": "literary-personality-development-activities",
+    "committeeName": "Literary & Personality Development Activities",
+    "facultyInCharge": {
+      "name": "Dr. Rajitha B",
+      "dept": "CSED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/rajitha-b.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Rakesh Kumar",
+      "dept": "SMS",
+      "role": "Coordinator",
+      "photo": "/images/faculty/rakesh-kumar.webp"
+    },
+    "activityFaculty": [
+      {
+        "name": "Dr. Dheeraj Ahuja",
+        "dept": "ChED",
+        "role": "Community Development",
+        "photo": "/images/faculty/dheeraj-ahuja.webp"
+      }
+    ],
+    "about": [],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "student-mentorship",
+    "name": "Student Mentorship",
+    "category": "social",
+    "venue": null,
+    "icon": "mentor",
+    "image": "/images/clubs/smp.webp",
+    "imageFit": "contain",
+    "clubSlug": "student-mentorship-program",
+    "committeeId": "literary-personality-development-activities",
+    "committeeName": "Literary & Personality Development Activities",
+    "facultyInCharge": {
+      "name": "Dr. Rajitha B",
+      "dept": "CSED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/rajitha-b.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Rakesh Kumar",
+      "dept": "SMS",
+      "role": "Coordinator",
+      "photo": "/images/faculty/rakesh-kumar.webp"
+    },
+    "activityFaculty": [],
+    "about": [
+      "Student Mentorship Program (SMP) is an initiative with a vision of procuring a hassle-free environment in the college, strengthening the senior- junior relationship.SMP organizes regular doubt clearing and counselling interaction."
+    ],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [
+      {
+        "label": "smp-mnnit.vercel.app",
+        "href": "https://smp-mnnit.vercel.app"
+      }
+    ],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "moe-activities",
+    "name": "MoE / MHRD Activities",
+    "category": "social",
+    "venue": null,
+    "icon": "building",
+    "image": "",
+    "imageFit": "contain",
+    "clubSlug": "",
+    "committeeId": "moe-mhrd-activities",
+    "committeeName": "MoE / MHRD Activities",
+    "facultyInCharge": {
+      "name": "Dr. Manohar Yadav",
+      "dept": "GIS",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/manohar-yadav.webp"
+    },
+    "facultyCoordinator": null,
+    "activityFaculty": [],
+    "about": [],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  },
+  {
+    "slug": "alumni-relations",
+    "name": "Alumni Relations",
+    "category": "social",
+    "venue": null,
+    "icon": "network",
+    "image": "/images/clubs/alumni.webp",
+    "imageFit": "contain",
+    "clubSlug": "alumni-association",
+    "committeeId": "literary-personality-development-activities",
+    "committeeName": "Literary & Personality Development Activities",
+    "facultyInCharge": {
+      "name": "Dr. Rajitha B",
+      "dept": "CSED",
+      "role": "Faculty In-Charge",
+      "photo": "/images/faculty/rajitha-b.webp"
+    },
+    "facultyCoordinator": {
+      "name": "Dr. Rakesh Kumar",
+      "dept": "SMS",
+      "role": "Coordinator",
+      "photo": "/images/faculty/rakesh-kumar.webp"
+    },
+    "activityFaculty": [],
+    "about": [
+      "MNNIT Alumni Association is an organization which acts as an interface between the esteemed alumni of the Institute and its bright students."
+    ],
+    "coach": null,
+    "captain": null,
+    "viceCaptain": null,
+    "team": [],
+    "schedule": [],
+    "facilities": [],
+    "events": [],
+    "results": [],
+    "achievements": [],
+    "gallery": [],
+    "domains": [],
+    "projects": [],
+    "workshops": [],
+    "competitions": [],
+    "resources": [],
+    "join": {
+      "whatWeDo": "",
+      "whoCanJoin": "",
+      "process": "",
+      "recruitment": "",
+      "studentCoordinator": null,
+      "link": ""
+    }
+  }
+]

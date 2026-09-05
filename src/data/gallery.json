@@ -1,0 +1,301 @@
+{
+  "hero": [
+    {
+      "image": "/images/hero/culrav.webp",
+      "eyebrow": "MNNIT Allahabad",
+      "title": "Student Activity Centre",
+      "subtitle": "Twenty clubs across technical, sports, cultural and community activities.",
+      "cta": {
+        "label": "Browse the clubs",
+        "href": "/clubs"
+      }
+    },
+    {
+      "image": "/images/hero/avishkar.webp",
+      "eyebrow": "Run by students",
+      "title": "Managed by students, guided by faculty",
+      "subtitle": "All activities are managed by students under the guidance of the President, SAC, and a team of Faculty In-Charges and Coordinators.",
+      "cta": {
+        "label": "Meet the committee",
+        "href": "/committee"
+      }
+    },
+    {
+      "image": "/images/hero/chitrasangam.webp",
+      "eyebrow": "Through the year",
+      "title": "Cultural, technical, sporting and community activity",
+      "subtitle": "The Centre provides a platform for cultural, technical and managerial events, athletics, indoor and outdoor games and yoga.",
+      "cta": {
+        "label": "About the Centre",
+        "href": "/about"
+      }
+    },
+    {
+      "image": "/images/clubs/basketball.webp",
+      "eyebrow": "Sports",
+      "title": "Nine sports clubs",
+      "subtitle": "The Centre appoints a pool of part-time coaches each year to train students across its sports activities.",
+      "cta": {
+        "label": "Sports clubs",
+        "href": "/clubs?category=sports"
+      }
+    },
+    {
+      "image": "/images/clubs/cricket.webp",
+      "eyebrow": "Cricket Club",
+      "title": "Inter NIT Champions, 2019 and 2022",
+      "subtitle": "Recorded alongside every other result MNNIT teams have brought home since 2016.",
+      "cta": {
+        "label": "View achievements",
+        "href": "/achievements"
+      }
+    }
+  ],
+  "campus": [
+    "/images/gallery/culrav/culrav-01.webp",
+    "/images/gallery/avishkar/avishkar-05.webp",
+    "/images/gallery/chitrasangam/chitrasangam-and-eloquence-07.webp",
+    "/images/gallery/hack36/hack-36-01.webp",
+    "/images/gallery/padmgandhi/padmgandhi-07.webp",
+    "/images/gallery/culrav/culrav-03.webp",
+    "/images/gallery/avishkar/avishkar-06.webp",
+    "/images/gallery/chitrasangam/chitrasangam-and-eloquence-03.webp",
+    "/images/gallery/hack36/hack-36-04.webp",
+    "/images/gallery/padmgandhi/padmgandhi-06.webp",
+    "/images/gallery/culrav/culrav-06.webp",
+    "/images/gallery/avishkar/avishkar-04.webp",
+    "/images/gallery/chitrasangam/chitrasangam-and-eloquence-02.webp",
+    "/images/gallery/hack36/hack-36-03.webp",
+    "/images/gallery/padmgandhi/padmgandhi-05.webp",
+    "/images/gallery/culrav/culrav-07.webp",
+    "/images/campus/mnnit.webp",
+    "/images/campus/academic-building.webp",
+    "/images/clubs/lawn_tennis.webp",
+    "/images/clubs/basketball.webp",
+    "/images/clubs/cricket.webp",
+    "/images/clubs/football.webp"
+  ],
+  "events": [
+    {
+      "slug": "culrav",
+      "name": "Culrav",
+      "color": "var(--cat-cultural)",
+      "photos": [
+        {
+          "src": "/images/gallery/culrav/culrav-01.webp",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "src": "/images/gallery/culrav/culrav-02.webp",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "src": "/images/gallery/culrav/culrav-03.webp",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "src": "/images/gallery/culrav/culrav-04.webp",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "src": "/images/gallery/culrav/culrav-05.webp",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "src": "/images/gallery/culrav/culrav-06.webp",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "src": "/images/gallery/culrav/culrav-07.webp",
+          "width": 1600,
+          "height": 900
+        }
+      ],
+      "session": "",
+      "eventSlug": ""
+    },
+    {
+      "slug": "avishkar",
+      "name": "Avishkar",
+      "color": "var(--cat-technical)",
+      "photos": [
+        {
+          "src": "/images/gallery/avishkar/avishkar-01.webp",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/images/gallery/avishkar/avishkar-02.webp",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/images/gallery/avishkar/avishkar-03.webp",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "src": "/images/gallery/avishkar/avishkar-04.webp",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "src": "/images/gallery/avishkar/avishkar-05.webp",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/images/gallery/avishkar/avishkar-06.webp",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "src": "/images/gallery/avishkar/avishkar-07.webp",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "session": "",
+      "eventSlug": ""
+    },
+    {
+      "slug": "chitrasangam",
+      "name": "Chitrasangam & Eloquence",
+      "color": "var(--pop-5)",
+      "photos": [
+        {
+          "src": "/images/gallery/chitrasangam/chitrasangam-and-eloquence-01.webp",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/images/gallery/chitrasangam/chitrasangam-and-eloquence-02.webp",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/images/gallery/chitrasangam/chitrasangam-and-eloquence-03.webp",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "src": "/images/gallery/chitrasangam/chitrasangam-and-eloquence-04.webp",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/images/gallery/chitrasangam/chitrasangam-and-eloquence-05.webp",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/images/gallery/chitrasangam/chitrasangam-and-eloquence-06.webp",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/images/gallery/chitrasangam/chitrasangam-and-eloquence-07.webp",
+          "width": 1600,
+          "height": 1199
+        },
+        {
+          "src": "/images/gallery/chitrasangam/chitrasangam-and-eloquence-08.webp",
+          "width": 1600,
+          "height": 900
+        }
+      ],
+      "session": "",
+      "eventSlug": ""
+    },
+    {
+      "slug": "hack36",
+      "name": "Hack 36",
+      "color": "var(--pop-6)",
+      "photos": [
+        {
+          "src": "/images/gallery/hack36/hack-36-01.webp",
+          "width": 1600,
+          "height": 1205
+        },
+        {
+          "src": "/images/gallery/hack36/hack-36-02.webp",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/images/gallery/hack36/hack-36-03.webp",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/images/gallery/hack36/hack-36-04.webp",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/images/gallery/hack36/hack-36-05.webp",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "src": "/images/gallery/hack36/hack-36-06.webp",
+          "width": 1600,
+          "height": 901
+        }
+      ],
+      "session": "",
+      "eventSlug": ""
+    },
+    {
+      "slug": "padmgandhi",
+      "name": "Padmgandhi",
+      "color": "var(--cat-sports)",
+      "photos": [
+        {
+          "src": "/images/gallery/padmgandhi/padmgandhi-01.webp",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/images/gallery/padmgandhi/padmgandhi-02.webp",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/images/gallery/padmgandhi/padmgandhi-03.webp",
+          "width": 1500,
+          "height": 2000
+        },
+        {
+          "src": "/images/gallery/padmgandhi/padmgandhi-04.webp",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/images/gallery/padmgandhi/padmgandhi-05.webp",
+          "width": 1500,
+          "height": 2000
+        },
+        {
+          "src": "/images/gallery/padmgandhi/padmgandhi-06.webp",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/images/gallery/padmgandhi/padmgandhi-07.webp",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "session": "",
+      "eventSlug": ""
+    }
+  ],
+  "videos": []
+}
