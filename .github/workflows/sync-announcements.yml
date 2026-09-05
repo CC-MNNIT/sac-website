@@ -4,6 +4,9 @@
 # Before this can work, add two repository secrets:
 #   DRIVE_FOLDER_ID   the folder id from its share link
 #   GOOGLE_API_KEY    a Google Cloud API key with the Drive API enabled
+#
+# A sync only commits to git. The server-side sac-poll-deploy.timer picks up
+# new commits on main within 10 minutes and ships them to the live site.
 name: Sync announcements from Drive
 
 on:
@@ -29,17 +32,18 @@ jobs:
           node-version: 22
 
       # Keeps scheduled runs green until the Drive integration is switched on.
-      - name: Skip until secrets are configured
-        if: ${{ secrets.DRIVE_FOLDER_ID == '' || secrets.GOOGLE_API_KEY == '' }}
-        run: |
-          echo "DRIVE_FOLDER_ID / GOOGLE_API_KEY not set — sync is dormant."
-          echo "Add the two repository secrets to enable it."
-
+      # (Plain bash check — `secrets` is rejected in `if:` expressions.)
       - name: Read the Drive folder
         env:
           DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-        run: node scripts/sync-announcements.mjs
+        run: |
+          if [ -z "$DRIVE_FOLDER_ID" ] || [ -z "$GOOGLE_API_KEY" ]; then
+            echo "DRIVE_FOLDER_ID / GOOGLE_API_KEY not set — sync is dormant."
+            echo "Add the two repository secrets to enable it."
+            exit 0
+          fi
+          node scripts/sync-announcements.mjs
 
       - name: Commit any change
         run: |
