@@ -15,9 +15,15 @@ echo "🚀 Starting Nix-powered Deployment for sac.mnnit.ac.in..."
 cd "$REPO_DIR"
 echo "📁 Operating in: $REPO_DIR"
 
-# 2. Pull latest changes from GitHub
-echo "⬇️ Pulling latest changes from Git..."
-git pull origin main
+# 2. Pull latest changes from GitHub.
+#    Editing a bash script while it is running corrupts execution, so if the
+#    pull changes this very file, re-exec it to run the freshly pulled version.
+if [ -z "${DEPLOY_PULLED:-}" ]; then
+  echo "⬇️ Pulling latest changes from Git..."
+  git pull origin main
+  export DEPLOY_PULLED=1
+  exec bash "$0"
+fi
 
 # 3 & 4. Install dependencies and build the static export using Nix.
 # `output: "export"` in next.config.ts makes this emit plain files into out/.
