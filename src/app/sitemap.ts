@@ -1,6 +1,9 @@
 import type { MetadataRoute } from "next";
 import { activities, clubs, events, site } from "@/lib/data";
 
+/* Required for `output: "export"` — the route must be statically rendered. */
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
