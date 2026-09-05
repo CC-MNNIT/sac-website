@@ -8,7 +8,6 @@ set -e
 
 # Define exact variables
 REPO_DIR="$HOME/repos/sac-website"
-WEB_DIR="/var/www/sac.mnnit.ac.in/html"
 
 echo "🚀 Starting Nix-powered Deployment for sac.mnnit.ac.in..."
 
@@ -32,14 +31,10 @@ if [ ! -f out/index.html ]; then
   exit 1
 fi
 
-# 5. Clean the old web directory and copy the entire new export
+# 5. Clean the old web directory and copy the entire new export.
+#    The root-owned helper is NOPASSWD (see /etc/sudoers.d/sac-deploy), so no
+#    password is needed here.
 echo "🧹 Clearing old files and copying new build..."
-sudo rm -rf "$WEB_DIR"/*
-sudo cp -r out/* "$WEB_DIR"/
-
-# 6. Set proper Nginx permissions
-echo "🔒 Setting permissions for Nginx..."
-sudo chown -R www-data:www-data "$WEB_DIR"
-sudo chmod -R 755 /var/www/sac.mnnit.ac.in
+sudo /usr/local/bin/sac-deploy-sync
 
 echo "✅ Deployment Successful! The latest version is now live."

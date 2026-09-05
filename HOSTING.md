@@ -16,16 +16,35 @@ Node 20 or newer.
 
 ```bash
 npm install
-npm run build   # prerenders all 98 pages
-npm run start   # serves the production build on port 3000
+npm run build   # static export → out/ (95 pages + 404.html)
 ```
+
+`next.config.ts` sets `output: "export"`, so the build emits plain HTML/CSS/JS
+into `out/` — there is no Node runtime in production. Images are served
+unoptimized (they are pre-sized WebP) and URLs use trailing slashes, which
+matches the server's nginx `try_files $uri $uri/` routing.
+
+**The SAC server (sac.mnnit.ac.in)** — the repo is cloned at
+`/home/sac/repos/sac-website` on `sac@100.64.163.38`. Deploy with:
+
+```bash
+ssh sac@100.64.163.38
+bash ~/repos/sac-website/deploy.sh
+```
+
+`deploy.sh` pulls from `main`, builds inside a Nix `nodejs_20` shell, sanity
+checks that `out/index.html` exists, then copies `out/` into
+`/var/www/sac.mnnit.ac.in/html` via the root-owned helper
+`/usr/local/bin/sac-deploy-sync` (NOPASSWD sudo — no password needed). nginx
+serves the result over HTTPS (Certbot). The previous site lives in
+`/home/sac/repos/SAC-MNNIT` if a rollback is ever needed.
 
 **Vercel / Netlify** — import the folder as a Next.js project. No configuration
 and no environment variables are required; the default build command
 (`npm run build`) is correct.
 
-**Any Node host** — `npm install && npm run build && npm run start`, then put a
-reverse proxy in front of port 3000.
+**Any Node host** — `npm install && npm run build`, then serve the generated
+`out/` directory as plain static files.
 
 ## Where the content lives
 
@@ -42,6 +61,14 @@ needs to be touched. `README.md` explains each file, and
 ## Optional: announcements from Google Drive
 
 `scripts/sync-announcements.mjs` and `.github/workflows/sync-announcements.yml`
-can pull announcements from a public Drive folder every 30 minutes. It does
-nothing until the `DRIVE_FOLDER_ID` and `GOOGLE_API_KEY` repository secrets are
-set, so it is safe to leave alone.
+can pull announcements from a public Drive folder every 30 minutes. The
+workflow stays green but does nothing until the `DRIVE_FOLDER_ID` and
+`GOOGLE_API_KEY` repository secrets are set.
+
+Two things to know when enabling it later:
+
+1. Adding the two repository secrets is all it takes — the guard step
+   auto-activates the sync on the next scheduled run.
+2. A sync only commits changes to git. The live site updates on the next
+   `deploy.sh` run, so wire up a CI deploy step (or plan to redeploy manually)
+   when announcements become a real content channel.
